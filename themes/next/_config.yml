@@ -668,7 +668,7 @@ gitment:
 # Demo: https://gitalk.github.io
 gitalk:
   enable: true
-  github_id:  zhaoolee  # Github repo owner
+  github_id: zhaoolee  # Github repo owner
   repo: https://github.com/zhaoolee/GBlog   # Repository name to store issues
   client_id: b218dfd270419b2c1351  # Github Application Client ID
   client_secret: cd1a2eca783536fbb7852f6ec3a8b2e6fdf0768b  # Github Application Client Secret

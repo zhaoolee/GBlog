@@ -667,17 +667,17 @@ gitment:
 # Gitalk
 # Demo: https://gitalk.github.io
 gitalk:
-  enable: false
-  github_id:  # Github repo owner
-  repo:  # Repository name to store issues
-  client_id:  # Github Application Client ID
-  client_secret:  # Github Application Client Secret
-  admin_user:  # GitHub repo owner and collaborators, only these guys can initialize github issues
+  enable: true
+  github_id:  zhaoolee  # Github repo owner
+  repo: https://github.com/zhaoolee/GBlog   # Repository name to store issues
+  client_id: b218dfd270419b2c1351  # Github Application Client ID
+  client_secret: cd1a2eca783536fbb7852f6ec3a8b2e6fdf0768b  # Github Application Client Secret
+  admin_user: zhaoolee  # GitHub repo owner and collaborators, only these guys can initialize github issues
   distraction_free_mode: true # Facebook-like distraction free mode
   # Gitalk's display language depends on user's browser or system environment
   # If you want everyone visiting your site to see a uniform language, you can set a force language value
   # Available values: en, es-ES, fr, ru, zh-CN, zh-TW
-  language:
+  language: zh-CN
 
 
 # ---------------------------------------------------------------

@@ -9,6 +9,7 @@
 # Useful if you want to comment some options from NexT `_config.yml` by `next.yml` without editing default config.
 override: false
 
+timezone: Asia/Shanghai
 # Allow to cache content generation. Introduced in NexT v6.0.0.
 cache:
   enable: true
@@ -100,7 +101,7 @@ creative_commons:
 # `Follow me on GitHub` banner in the top-right corner.
 github_banner:
   enable: false
-  permalink: https://github.com/yourname
+  permalink: https://github.com/zhaoolee
   title: Follow me on GitHub
 
 
@@ -678,6 +679,7 @@ gitalk:
   # If you want everyone visiting your site to see a uniform language, you can set a force language value
   # Available values: en, es-ES, fr, ru, zh-CN, zh-TW
   language: zh-CN
+
 
 
 # ---------------------------------------------------------------

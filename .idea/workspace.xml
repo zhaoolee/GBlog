@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3ac6f59-8ea3-4151-9d4f-2e39c5171392" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/themes/next/_config.yml" afterPath="$PROJECT_DIR$/themes/next/_config.yml" />
       <change beforePath="$PROJECT_DIR$/themes/next/bower.json" afterPath="$PROJECT_DIR$/themes/next/bower.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -59,8 +60,8 @@
       <file leaf-file-name="post.swig" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/next/layout/_macro/post.swig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8">
-              <caret line="112" column="16" lean-forward="false" selection-start-line="112" selection-start-column="16" selection-end-line="112" selection-end-column="16" />
+            <state relative-caret-position="224">
+              <caret line="121" column="20" lean-forward="false" selection-start-line="121" selection-start-column="20" selection-end-line="121" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -117,8 +118,8 @@
       <find>gitalk</find>
       <find>time</find>
       <find>zone</find>
-      <find>jquery</find>
       <find>cloudflare.com</find>
+      <find>jquery</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -136,6 +137,11 @@
       </list>
     </option>
   </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
     <package-json value="$PROJECT_DIR$/package.json" />
@@ -148,8 +154,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="149" />
-    <option name="y" value="75" />
+    <option name="x" value="334" />
+    <option name="y" value="422" />
     <option name="width" value="1560" />
     <option name="height" value="802" />
   </component>
@@ -281,17 +287,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562026857292</updated>
-      <workItem from="1562026859985" duration="3569000" />
+      <workItem from="1562026859985" duration="3759000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3569000" />
+    <option name="totallyTimeSpent" value="3759000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="149" y="75" width="1560" height="802" extended-state="0" />
+    <frame x="334" y="422" width="1560" height="802" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -399,8 +406,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/next/layout/_macro/post.swig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8">
-          <caret line="112" column="16" lean-forward="false" selection-start-line="112" selection-start-column="16" selection-end-line="112" selection-end-column="16" />
+        <state relative-caret-position="224">
+          <caret line="121" column="20" lean-forward="false" selection-start-line="121" selection-start-column="20" selection-end-line="121" selection-end-column="20" />
           <folding />
         </state>
       </provider>

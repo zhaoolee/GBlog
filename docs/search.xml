@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>%2FGBlog%2F2019%2F07%2F02%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+    <title><![CDATA[安装kali虚拟机]]></title>
+    <url>%2FGBlog%2F2019%2F07%2F02%2Finstall-kali%2F</url>
+    <content type="text"><![CDATA[Kali是一套用于安全渗透(黑客)的Linux发行版, 好处在于, 系统内置了大量的安全渗透方面的软件, 新手可以免于配置, 开箱即用! 即使不打算做安全, 开阔一下眼界也是好的~ Kali安装的过程中, 给出了太多的选项, 这里详细记录了安装配置的过程第一部分: 获取镜像(kali-linux-2018.1-amd64), 配置虚拟机(VMware 专业版 10.1.0 )获取Kali镜像 第二部分: 建立虚拟机从镜像安装 选择镜像, 继续 选择最新 Debian64位 选择传统BIOS引导, 继续 自定设置 选择位置后, 配置内存为4G 和硬盘容量为 64G(物理机资源充足, 为了虚拟机流畅,可以多配置一些物理资源) 第三部分: 开启虚拟机 语言:中文简体 地区: 中国 语言: 汉语 自动安装 配置网络 配置域名 填写密码(两次一致) 自动校对时钟 使用整个磁盘 选择需要分区的磁盘 选择分区方式 确认分区 真的确认了? 真的! 安装系统 使用网络镜像吗? 否! 将GRUB安装至硬盘? 是! 选择启动器安装位置 重启, 完成安装! 第四部分: 登录系统 登录root账户 第五部分: Kali的基本配置安装VMware Tools(物理机和虚拟机可共享粘贴板, 拖拽传输文件) 重启生效 更换镜像源 编辑 vim /etc/apt/sources.list 将镜像源写入sources.list文件, :wq,退出保存文件 更新镜像源apt-update123456789101112131415161718192021222324252627#阿里云deb http://mirrors.aliyun.com/kali kali-rolling main non-free contribdeb-src http://mirrors.aliyun.com/kali kali-rolling main non-free contrib #清华大学deb http://mirrors.tuna.tsinghua.edu.cn/kali kali-rolling main contrib non-freedeb-src https://mirrors.tuna.tsinghua.edu.cn/kali kali-rolling main contrib non-free#中科大deb http://mirrors.ustc.edu.cn/kali kali-rolling main non-free contribdeb-src http://mirrors.ustc.edu.cn/kali kali-rolling main non-free contrib #浙大#deb http://mirrors.zju.edu.cn/kali kali-rolling main contrib non-free#deb-src http://mirrors.zju.edu.cn/kali kali-rolling main contrib non-free #东软大学#deb http://mirrors.neusoft.edu.cn/kali kali-rolling/main non-free contrib#deb-src http://mirrors.neusoft.edu.cn/kali kali-rolling/main non-free contrib #官方源#deb http://http.kali.org/kali kali-rolling main non-free contrib#deb-src http://http.kali.org/kali kali-rolling main non-free contrib #重庆大学#deb http://http.kali.org/kali kali-rolling main non-free contrib#deb-src http://http.kali.org/kali kali-rolling main non-free contrib 安装google拼音输入法12apt-get install fcitxapt-get install fcitx-googlepinyin 重启系统后生效, 输入法切换, ctrl+space 更改目录为英文, 方便跳转12345678mv 桌面 Desktopmv 文档 Documentsmv 图片 Picturesmv 音乐 Musicmv 下载 Downloadsmv 视频 Videomv 公共 Publicmv 模板 Template]]></content>
+      <categories>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+        <tag>Kali</tag>
+      </tags>
   </entry>
   <entry>
     <title><![CDATA[Python将md批量转为docx.md]]></title>

@@ -103,17 +103,59 @@
 
 
 
-  <meta name="description" content="zhaoolee基于github仓库的静态博客">
-<meta name="keywords" content="zhaoolee 木子昭 博客">
-<meta property="og:type" content="website">
-<meta property="og:title" content="zhaoolee的博客">
-<meta property="og:url" content="http://zhaoolee.github.io/GBlog/index.html">
+  <meta name="description" content="Kali是一套用于安全渗透(黑客)的Linux发行版, 好处在于, 系统内置了大量的安全渗透方面的软件, 新手可以免于配置, 开箱即用! 即使不打算做安全, 开阔一下眼界也是好的~  Kali安装的过程中, 给出了太多的选项, 这里详细记录了安装配置的过程第一部分: 获取镜像(kali-linux-2018.1-amd64), 配置虚拟机(VMware 专业版 10.1.0 )获取Kali镜">
+<meta name="keywords" content="Linux,Kali">
+<meta property="og:type" content="article">
+<meta property="og:title" content="安装kali虚拟机">
+<meta property="og:url" content="http://zhaoolee.github.io/GBlog/2019/07/02/install-kali/index.html">
 <meta property="og:site_name" content="zhaoolee的博客">
-<meta property="og:description" content="zhaoolee基于github仓库的静态博客">
+<meta property="og:description" content="Kali是一套用于安全渗透(黑客)的Linux发行版, 好处在于, 系统内置了大量的安全渗透方面的软件, 新手可以免于配置, 开箱即用! 即使不打算做安全, 开阔一下眼界也是好的~  Kali安装的过程中, 给出了太多的选项, 这里详细记录了安装配置的过程第一部分: 获取镜像(kali-linux-2018.1-amd64), 配置虚拟机(VMware 专业版 10.1.0 )获取Kali镜">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/a569ba44eb6ab113e906a6c308270149.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/645e5f4866fdbb1d87efcb06b10deb14.gif">
+<meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/09f017868df8e9530844f8587ac64fe4.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/0f2ece70e4a2f94796117289461ffa82.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/4f23800a4412dab15403024482f0883b.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/b12679896ffb63a185c5c7ad32ea690c.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/1c9b82ad817f2c97171afc80c7a58f0a.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/51bae93cffbfb680e229de973198b4ff.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/018b507758efa048aed1ebe8ee313b90.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/b472f1306435928e7efe33187306a273.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/68336fc2a277a1d04ebaf7b45b9018f0.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/82f88f004e047b27db5debd2c988ecba.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/db0a5d11fc0d7ec13be4c56ddf8c6f2f.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/5b9d7f3e7d832fd07487de87ccaf9b96.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/f135606751a35c1ad0492f0fea213d5e.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/88716f849575ad652622f4d4d7532ba1.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/7cc6c243888700dbfffbaad9c757f401.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/34f2f26c96bedbfdc2eed235549ddd51.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/d3a6e1ffc0e0af337c0fb3220e0980c2.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/59d663edac47e1b1db714849229a8d26.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/271c83bb0c21f18558f6be0087194702.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/3a2b44bfbfe52aa6a174878112814ccb.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/93238f488ec47237ca0ed15fc6d4641a.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/dd0e823d563c943bd37dff4abe15a93f.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/331b0ac7073f3fde123b4d15d1cc0561.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/bbb2d22c1e24f2e43f51df0daac04552.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/0b5c17b31abcd5db0d026b7d1fff73a9.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/5320cde881568cb5c531d6d1d2f7ef50.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/ccd93c9e4ef3d1128521f5c9bd501199.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/25b0916f5ed65bb09d98f39c25836cf9.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/235188b056db89599d26b4d59f3d4f3d.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/3d6c36c4b03090f1e53260158bd96519.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/7edebfa4846d99d78e253eae74208c41.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/5262034282467b61709d7d598fab8230.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/bce5efe5eb9fae2774d657b0be7b83ca.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/8458ad845b34384b5f3d3f7632924bb0.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/6c55779d49922e54cfdb6ab442b7f51e.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/2317fba8644016b2297c03f3d6be55b0.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/18394196af71f56750781dc50c6195f0.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/190d44bcefb9d4cdf66b1738e5b1ca1f.png">
+<meta property="og:updated_time" content="2019-07-02T06:24:47.431Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="zhaoolee的博客">
-<meta name="twitter:description" content="zhaoolee基于github仓库的静态博客">
+<meta name="twitter:title" content="安装kali虚拟机">
+<meta name="twitter:description" content="Kali是一套用于安全渗透(黑客)的Linux发行版, 好处在于, 系统内置了大量的安全渗透方面的软件, 新手可以免于配置, 开箱即用! 即使不打算做安全, 开阔一下眼界也是好的~  Kali安装的过程中, 给出了太多的选项, 这里详细记录了安装配置的过程第一部分: 获取镜像(kali-linux-2018.1-amd64), 配置虚拟机(VMware 专业版 10.1.0 )获取Kali镜">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/a569ba44eb6ab113e906a6c308270149.png">
 
 
 
@@ -121,7 +163,7 @@
 
   
   
-  <link rel="canonical" href="http://zhaoolee.github.io/GBlog/">
+  <link rel="canonical" href="http://zhaoolee.github.io/GBlog/2019/07/02/install-kali/">
 
 
 
@@ -131,7 +173,7 @@
   };
 </script>
 
-  <title>zhaoolee的博客</title>
+  <title>安装kali虚拟机 | zhaoolee的博客</title>
   
 
 
@@ -189,8 +231,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -374,9 +415,9 @@
           
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -408,10 +449,8 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/GBlog/2019/07/02/install-kali/" class="post-title-link" itemprop="url">安装kali虚拟机</a>
+          <h2 class="post-title" itemprop="name headline">安装kali虚拟机
+
               
             
           </h2>
@@ -493,9 +532,7 @@
       
 
       
-        
-          
-            <blockquote>
+        <blockquote>
 <p><img src="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/a569ba44eb6ab113e906a6c308270149.png" alt="Kali"></p>
 </blockquote>
 <h6 id="Kali是一套用于安全渗透-黑客-的Linux发行版-好处在于-系统内置了大量的安全渗透方面的软件-新手可以免于配置-开箱即用"><a href="#Kali是一套用于安全渗透-黑客-的Linux发行版-好处在于-系统内置了大量的安全渗透方面的软件-新手可以免于配置-开箱即用" class="headerlink" title="Kali是一套用于安全渗透(黑客)的Linux发行版, 好处在于, 系统内置了大量的安全渗透方面的软件, 新手可以免于配置, 开箱即用!"></a>Kali是一套用于安全渗透(黑客)的Linux发行版, 好处在于, 系统内置了大量的安全渗透方面的软件, 新手可以免于配置, 开箱即用!</h6><blockquote>
@@ -602,8 +639,6 @@
 <p><img src="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/18394196af71f56750781dc50c6195f0.png" alt="before"><br><img src="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/190d44bcefb9d4cdf66b1738e5b1ca1f.png" alt="after"></p>
 </blockquote>
 
-          
-        
       
     </div>
 
@@ -624,359 +659,38 @@
 
     <footer class="post-footer">
       
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://zhaoolee.github.io/GBlog/GBlog/2019/07/02/md-to-word/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="zhaoolee">
-      <meta itemprop="description" content="zhaoolee基于github仓库的静态博客">
-      <meta itemprop="image" content="https://avatars2.githubusercontent.com/u/15868458?s=460&v=4">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="zhaoolee的博客">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h2 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/GBlog/2019/07/02/md-to-word/" class="post-title-link" itemprop="url">Python将md批量转为docx.md</a>
-              
-            
-          </h2>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2019-07-02 10:09:12 / 修改时间：11:35:55" itemprop="dateCreated datePublished" datetime="2019-07-02T10:09:12+08:00">2019-07-02</time>
-            
-
-            
-              
-
-              
-            
-          </span>
-
+        <div class="post-tags">
           
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/GBlog/categories/程序员/" itemprop="url" rel="index"><span itemprop="name">程序员</span></a></span>
-
-                
-                
-              
-            </span>
+            <a href="/GBlog/tags/Linux/" rel="tag"># Linux</a>
           
-
+            <a href="/GBlog/tags/Kali/" rel="tag"># Kali</a>
           
-            
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
         </div>
-      </header>
-    
+      
 
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
+      
       
       
 
       
-        
-          <blockquote>
-<p>这两天写毕业论文, 发现了一个可以将markdown快速转为word格式的小工具<strong>pandoc</strong>, 非常好用, 比如我有一个名为<code>毕业论文.md</code>的文件, 我只需在命令行运行</p>
-</blockquote>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pandoc 毕业论文.md -o 毕业论文.docx</span><br></pre></td></tr></table></figure>
-
-<p>即可根据md文件生成新的docx文件! </p>
-          <!--noindex-->
-          
-            <div class="post-button text-center">
-              <a class="btn" href="/GBlog/2019/07/02/md-to-word/#more" rel="contents">
-                阅读全文 &raquo;
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/GBlog/2019/07/02/md-to-word/" rel="next" title="Python将md批量转为docx.md">
+                <i class="fa fa-chevron-left"></i> Python将md批量转为docx.md
               </a>
-            </div>
-          
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://zhaoolee.github.io/GBlog/GBlog/2019/07/02/python-send-mail/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="zhaoolee">
-      <meta itemprop="description" content="zhaoolee基于github仓库的静态博客">
-      <meta itemprop="image" content="https://avatars2.githubusercontent.com/u/15868458?s=460&v=4">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="zhaoolee的博客">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h2 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/GBlog/2019/07/02/python-send-mail/" class="post-title-link" itemprop="url">3行代码发邮件(含发送图片)</a>
-              
             
-          </h2>
-        
+          </div>
 
-        <div class="post-meta">
-          <span class="post-time">
+          <span class="post-nav-divider"></span>
 
+          <div class="post-nav-prev post-nav-item">
             
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2019-07-02 09:20:22 / 修改时间：11:36:47" itemprop="dateCreated datePublished" datetime="2019-07-02T09:20:22+08:00">2019-07-02</time>
-            
-
-            
-              
-
-              
-            
-          </span>
-
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/GBlog/categories/程序员/" itemprop="url" rel="index"><span itemprop="name">程序员</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
+          </div>
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          <blockquote>
-<p>最近有发邮件的需求<br>发现了一个python发邮件的开源项目<a href="https://github.com/kootenpv/yagmail" target="_blank" rel="noopener">yagmail</a>, 3行代码搞定邮件, 很赞</p>
-</blockquote>
-<h2 id="以下三行代码实现的功能"><a href="#以下三行代码实现的功能" class="headerlink" title="以下三行代码实现的功能"></a>以下三行代码实现的功能</h2><ul>
-<li>发送超链接</li>
-<li>发送图片资源(支持发送各种静态资源, 文件名最好是英文)</li>
-</ul>
-          <!--noindex-->
-          
-            <div class="post-button text-center">
-              <a class="btn" href="/GBlog/2019/07/02/python-send-mail/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -986,14 +700,19 @@
   </article>
 
 
-    
-  </section>
-
-  
+  </div>
 
 
           </div>
           
+
+  
+    <div class="comments" id="gitalk-container">
+    </div>
+
+  
+
+
 
         </div>
         
@@ -1013,8 +732,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <div class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -1134,6 +862,23 @@
         </div>
       </div>
 
+      
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-6"><a class="nav-link" href="#Kali是一套用于安全渗透-黑客-的Linux发行版-好处在于-系统内置了大量的安全渗透方面的软件-新手可以免于配置-开箱即用"><span class="nav-number">1.</span> <span class="nav-text">Kali是一套用于安全渗透(黑客)的Linux发行版, 好处在于, 系统内置了大量的安全渗透方面的软件, 新手可以免于配置, 开箱即用!</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#Kali安装的过程中-给出了太多的选项-这里详细记录了安装配置的过程"><span class="nav-number">2.</span> <span class="nav-text">Kali安装的过程中, 给出了太多的选项, 这里详细记录了安装配置的过程</span></a></li></ol><li class="nav-item nav-level-2"><a class="nav-link" href="#第一部分-获取镜像-kali-linux-2018-1-amd64-配置虚拟机-VMware-专业版-10-1-0"><span class="nav-number"></span> <span class="nav-text">第一部分: 获取镜像(kali-linux-2018.1-amd64), 配置虚拟机(VMware 专业版 10.1.0 )</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#获取Kali镜像"><span class="nav-number"></span> <span class="nav-text">获取Kali镜像</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#第二部分-建立虚拟机"><span class="nav-number"></span> <span class="nav-text">第二部分: 建立虚拟机</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#从镜像安装"><span class="nav-number">1.</span> <span class="nav-text">从镜像安装</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#选择镜像-继续"><span class="nav-number">2.</span> <span class="nav-text">选择镜像, 继续</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#选择最新-Debian64位"><span class="nav-number">3.</span> <span class="nav-text">选择最新 Debian64位</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#选择传统BIOS引导-继续"><span class="nav-number">4.</span> <span class="nav-text">选择传统BIOS引导, 继续</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#自定设置"><span class="nav-number">5.</span> <span class="nav-text">自定设置</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#第三部分-开启虚拟机"><span class="nav-number"></span> <span class="nav-text">第三部分: 开启虚拟机</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#语言-中文简体"><span class="nav-number">1.</span> <span class="nav-text">语言:中文简体</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#地区-中国"><span class="nav-number">2.</span> <span class="nav-text">地区: 中国</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#语言-汉语"><span class="nav-number">3.</span> <span class="nav-text">语言: 汉语</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#自动安装"><span class="nav-number">4.</span> <span class="nav-text">自动安装</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#配置网络"><span class="nav-number">5.</span> <span class="nav-text">配置网络</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#配置域名"><span class="nav-number">6.</span> <span class="nav-text">配置域名</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#填写密码-两次一致"><span class="nav-number">7.</span> <span class="nav-text">填写密码(两次一致)</span></a></li></ol></li><li class="nav-item nav-level-5"><a class="nav-link" href="#自动校对时钟"><span class="nav-number"></span> <span class="nav-text">自动校对时钟</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#使用整个磁盘"><span class="nav-number">1.</span> <span class="nav-text">使用整个磁盘</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#选择需要分区的磁盘"><span class="nav-number">2.</span> <span class="nav-text">选择需要分区的磁盘</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#选择分区方式"><span class="nav-number">3.</span> <span class="nav-text">选择分区方式</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#确认分区"><span class="nav-number">4.</span> <span class="nav-text">确认分区</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#真的确认了-真的"><span class="nav-number">5.</span> <span class="nav-text">真的确认了? 真的!</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#安装系统"><span class="nav-number">6.</span> <span class="nav-text">安装系统</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#使用网络镜像吗-否"><span class="nav-number">7.</span> <span class="nav-text">使用网络镜像吗? 否!</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#将GRUB安装至硬盘-是"><span class="nav-number">8.</span> <span class="nav-text">将GRUB安装至硬盘? 是!</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#选择启动器安装位置"><span class="nav-number">9.</span> <span class="nav-text">选择启动器安装位置</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#重启-完成安装"><span class="nav-number">10.</span> <span class="nav-text">重启, 完成安装!</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#第四部分-登录系统"><span class="nav-number"></span> <span class="nav-text">第四部分: 登录系统</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#登录root账户"><span class="nav-number">1.</span> <span class="nav-text">登录root账户</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#第五部分-Kali的基本配置"><span class="nav-number"></span> <span class="nav-text">第五部分: Kali的基本配置</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#安装VMware-Tools-物理机和虚拟机可共享粘贴板-拖拽传输文件"><span class="nav-number">1.</span> <span class="nav-text">安装VMware Tools(物理机和虚拟机可共享粘贴板, 拖拽传输文件)</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#更换镜像源"><span class="nav-number">2.</span> <span class="nav-text">更换镜像源</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#安装google拼音输入法"><span class="nav-number">3.</span> <span class="nav-text">安装google拼音输入法</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#更改目录为英文-方便跳转"><span class="nav-number">4.</span> <span class="nav-text">更改目录为英文, 方便跳转</span></a></li></ol></li></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
       
 
       
@@ -1267,6 +1012,10 @@
 
 
   
+  <script src="/GBlog/js/scrollspy.js?v=7.1.2"></script>
+<script src="/GBlog/js/post-details.js?v=7.1.2"></script>
+
+
 
   
 
@@ -1282,6 +1031,37 @@
 
   
 
+
+  
+    
+
+<script src="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+
+
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
+
+
+
+<script src="//cdn.jsdelivr.net/npm/js-md5@0.7.3/src/md5.min.js"></script>
+
+<script>
+  var gitalk = new Gitalk({
+    clientID: 'fcfeca14739ad63b029c',
+    clientSecret: '191c171c5954a566e184f8a22b2c7a4b0b224759',
+    repo: 'GBlog',
+    owner: 'zhaoolee',
+    admin: ['zhaoolee'],
+    id: md5(location.pathname),
+    
+      language: 'zh-CN',
+    
+    distractionFreeMode: 'true'
+  });
+  gitalk.render('gitalk-container');
+</script>
+
+  
 
 
   

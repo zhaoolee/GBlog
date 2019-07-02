@@ -1842,7 +1842,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #a766ff;
+  background: #d6911d;
 }
 .feed-link,
 .chat {
@@ -2831,10 +2831,10 @@ hr {
   -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
 }
 * {
-  cursor: url("/images/chuyin.ico"), auto !important;
+  cursor: url("https://raw.githubusercontent.com/zhaoolee/GBlog/master/themes/next/source/images/chuyin.ico"), auto !important;
 }
 :active {
-  cursor: url("/images/chuyin.ico"), auto !important;
+  cursor: url("https://raw.githubusercontent.com/zhaoolee/GBlog/master/themes/next/source/images/chuyin.ico"), auto !important;
 }
 h1,
 h2,

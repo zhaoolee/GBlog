@@ -30,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/themes/next/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="24912">
-              <caret line="1038" column="0" lean-forward="true" selection-start-line="1038" selection-start-column="0" selection-end-line="1038" selection-end-column="0" />
+              <caret line="1038" column="0" lean-forward="false" selection-start-line="1038" selection-start-column="0" selection-end-line="1038" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -50,7 +50,7 @@
         <entry file="file://$PROJECT_DIR$/themes/next/layout/_layout.swig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2760">
-              <caret line="115" column="31" lean-forward="true" selection-start-line="115" selection-start-column="31" selection-end-line="115" selection-end-column="31" />
+              <caret line="115" column="31" lean-forward="false" selection-start-line="115" selection-start-column="31" selection-end-line="115" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -103,7 +103,7 @@
         <entry file="file://$PROJECT_DIR$/docs/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="14544">
-              <caret line="766" column="52" lean-forward="false" selection-start-line="766" selection-start-column="52" selection-end-line="766" selection-end-column="52" />
+              <caret line="766" column="78" lean-forward="false" selection-start-line="766" selection-start-column="78" selection-end-line="766" selection-end-column="78" />
               <folding />
             </state>
           </provider>
@@ -281,12 +281,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562026857292</updated>
-      <workItem from="1562026859985" duration="3439000" />
+      <workItem from="1562026859985" duration="3569000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3439000" />
+    <option name="totallyTimeSpent" value="3569000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="149" y="75" width="1560" height="802" extended-state="0" />
@@ -341,7 +341,7 @@
     <entry file="file://$PROJECT_DIR$/docs/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14544">
-          <caret line="766" column="52" lean-forward="false" selection-start-line="766" selection-start-column="52" selection-end-line="766" selection-end-column="52" />
+          <caret line="766" column="78" lean-forward="false" selection-start-line="766" selection-start-column="78" selection-end-line="766" selection-end-column="78" />
           <folding />
         </state>
       </provider>
@@ -376,7 +376,7 @@
     <entry file="file://$PROJECT_DIR$/themes/next/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24912">
-          <caret line="1038" column="0" lean-forward="true" selection-start-line="1038" selection-start-column="0" selection-end-line="1038" selection-end-column="0" />
+          <caret line="1038" column="0" lean-forward="false" selection-start-line="1038" selection-start-column="0" selection-end-line="1038" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -392,7 +392,7 @@
     <entry file="file://$PROJECT_DIR$/themes/next/layout/_layout.swig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2760">
-          <caret line="115" column="31" lean-forward="true" selection-start-line="115" selection-start-column="31" selection-end-line="115" selection-end-column="31" />
+          <caret line="115" column="31" lean-forward="false" selection-start-line="115" selection-start-column="31" selection-end-line="115" selection-end-column="31" />
           <folding />
         </state>
       </provider>

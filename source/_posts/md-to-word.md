@@ -1,7 +1,15 @@
 ---
 title: Python将md批量转为docx.md
 date: 2019-07-02 10:09:12
-tags: Python Word Markdown
+
+categories:
+- 程序员
+
+tags: 
+- Python
+- Word
+- Markdown
+
 ---
 
 > 这两天写毕业论文, 发现了一个可以将markdown快速转为word格式的小工具**pandoc**, 非常好用, 比如我有一个名为`毕业论文.md`的文件, 我只需在命令行运行

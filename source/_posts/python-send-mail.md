@@ -1,7 +1,12 @@
 ---
 title: 3行代码发邮件(含发送图片)
 date: 2019-07-02 09:20:22
-tags:
+categories:
+- 程序员
+
+tags: 
+- Python
+- mail
 ---
 > 最近有发邮件的需求
 > 发现了一个python发邮件的开源项目[yagmail](https://github.com/kootenpv/yagmail), 3行代码搞定邮件, 很赞

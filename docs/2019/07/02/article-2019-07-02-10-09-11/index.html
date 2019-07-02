@@ -96,17 +96,33 @@
 
 
 
-  <meta name="description" content="zhaoolee基于github仓库的静态博客">
-<meta name="keywords" content="zhaoolee 木子昭 博客">
-<meta property="og:type" content="website">
-<meta property="og:title" content="zhaoolee的博客">
-<meta property="og:url" content="http://zhaoolee.github.io/GBlog/index.html">
+  <meta name="description" content="这两天写毕业论文, 发现了一个可以将markdown快速转为word格式的小工具pandoc, 非常好用, 比如我有一个名为毕业论文.md的文件, 我只需在命令行运行  1pandoc 毕业论文.md -o 毕业论文.docx  即可根据md文件生成新的docx文件!  pandoc支持相互转换的格式, 多的惊人!   Pandoc主站链接   安装包下载地址   使用技巧: 由于word确实很">
+<meta name="keywords" content="Python Word Markdown">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Python将md批量转为docx.md">
+<meta property="og:url" content="http://zhaoolee.github.io/GBlog/2019/07/02/article-2019-07-02-10-09-11/index.html">
 <meta property="og:site_name" content="zhaoolee的博客">
-<meta property="og:description" content="zhaoolee基于github仓库的静态博客">
+<meta property="og:description" content="这两天写毕业论文, 发现了一个可以将markdown快速转为word格式的小工具pandoc, 非常好用, 比如我有一个名为毕业论文.md的文件, 我只需在命令行运行  1pandoc 毕业论文.md -o 毕业论文.docx  即可根据md文件生成新的docx文件!  pandoc支持相互转换的格式, 多的惊人!   Pandoc主站链接   安装包下载地址   使用技巧: 由于word确实很">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/7c842ad61192e2828f14c335c9c0d634.jpeg">
+<meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/7e41be7ec3e377991d6dc7e243a6c32c.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/060943e44678d8f7c593b4adf477da0e.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/c9f735f0d273a51c21e5913b8254598b.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/2cd983b5f65272f4304e8ccedeb8b762.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/092dae2c76f1e425f21e3a7f713976d3.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/07a9ce868548792b5383ca389a296a7c.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/44a9ec98a5a0bbab827daf5270a29f8f.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/54015040f12f14d002db63d0392fc6a2.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/38f6acd538a4806055c3db07625ce255.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/943f722a07cf59360787e0bc72bb0de2.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/591fd880e325bd1d7f29e72542aa0177.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/1241fa13c7de2022f46f806394553a6b.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/14e09c7c60e52c998b986ecf0b083447.png">
+<meta property="og:updated_time" content="2019-07-02T02:11:07.239Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="zhaoolee的博客">
-<meta name="twitter:description" content="zhaoolee基于github仓库的静态博客">
+<meta name="twitter:title" content="Python将md批量转为docx.md">
+<meta name="twitter:description" content="这两天写毕业论文, 发现了一个可以将markdown快速转为word格式的小工具pandoc, 非常好用, 比如我有一个名为毕业论文.md的文件, 我只需在命令行运行  1pandoc 毕业论文.md -o 毕业论文.docx  即可根据md文件生成新的docx文件!  pandoc支持相互转换的格式, 多的惊人!   Pandoc主站链接   安装包下载地址   使用技巧: 由于word确实很">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/7c842ad61192e2828f14c335c9c0d634.jpeg">
 
 
 
@@ -114,7 +130,7 @@
 
   
   
-  <link rel="canonical" href="http://zhaoolee.github.io/GBlog/">
+  <link rel="canonical" href="http://zhaoolee.github.io/GBlog/2019/07/02/article-2019-07-02-10-09-11/">
 
 
 
@@ -124,7 +140,7 @@
   };
 </script>
 
-  <title>zhaoolee的博客</title>
+  <title>Python将md批量转为docx.md | zhaoolee的博客</title>
   
 
 
@@ -172,8 +188,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -277,9 +292,9 @@
           
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -311,10 +326,8 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/GBlog/2019/07/02/article-2019-07-02-10-09-11/" class="post-title-link" itemprop="url">Python将md批量转为docx.md</a>
+          <h1 class="post-title" itemprop="name headline">Python将md批量转为docx.md
+
               
             
           </h1>
@@ -378,9 +391,7 @@
       
 
       
-        
-          
-            <blockquote>
+        <blockquote>
 <p>这两天写毕业论文, 发现了一个可以将markdown快速转为word格式的小工具<strong>pandoc</strong>, 非常好用, 比如我有一个名为<code>毕业论文.md</code>的文件, 我只需在命令行运行</p>
 </blockquote>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pandoc 毕业论文.md -o 毕业论文.docx</span><br></pre></td></tr></table></figure>
@@ -441,8 +452,6 @@
 <p>另外, 小白福利, 我把这篇博客做成了视频 <a href="https://www.bilibili.com/video/av24136955/" target="_blank" rel="noopener">https://www.bilibili.com/video/av24136955/</a><br>欢迎观看, 欢迎投币, 欢迎弹幕, 欢迎转发</p>
 </blockquote>
 
-          
-        
       
     </div>
 
@@ -463,325 +472,36 @@
 
     <footer class="post-footer">
       
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://zhaoolee.github.io/GBlog/GBlog/2019/07/02/python-send-mail/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="zhaoolee">
-      <meta itemprop="description" content="zhaoolee基于github仓库的静态博客">
-      <meta itemprop="image" content="/GBlog/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="zhaoolee的博客">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/GBlog/2019/07/02/python-send-mail/" class="post-title-link" itemprop="url">3行代码发邮件(含发送图片)</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2019-07-02 09:20:22 / 修改时间：09:22:04" itemprop="dateCreated datePublished" datetime="2019-07-02T09:20:22+08:00">2019-07-02</time>
-            
-
-            
-              
-
-              
-            
-          </span>
-
+        <div class="post-tags">
           
-
+            <a href="/GBlog/tags/Python-Word-Markdown/" rel="tag"># Python Word Markdown</a>
           
-            
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <blockquote>
-<p>最近有发邮件的需求<br>发现了一个python发邮件的开源项目<a href="https://github.com/kootenpv/yagmail" target="_blank" rel="noopener">yagmail</a>, 3行代码搞定邮件, 很赞</p>
-</blockquote>
-<h2 id="以下三行代码实现的功能"><a href="#以下三行代码实现的功能" class="headerlink" title="以下三行代码实现的功能"></a>以下三行代码实现的功能</h2><ul>
-<li>发送超链接</li>
-<li>发送图片资源(支持发送各种静态资源, 文件名最好是英文)</li>
-</ul>
-<h2 id="源码"><a href="#源码" class="headerlink" title="源码"></a>源码</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">import yagmail</span><br><span class="line"></span><br><span class="line"># 连接邮箱服务器</span><br><span class="line">yag = yagmail.SMTP(user=&quot;lijianzhaoyou@163.com&quot;, password=&quot;填自己的&quot;, host=&apos;smtp.163.com&apos;)</span><br><span class="line"></span><br><span class="line"># 邮箱正文</span><br><span class="line">contents = [&apos;今天是周末,我要学习, 学习使我快乐;&apos;, &apos;&lt;a href=&quot;https://www.python.org/&quot;&gt;python官网的超链接&lt;/a&gt;&apos;, &apos;./girl.jpg&apos;]</span><br><span class="line"></span><br><span class="line"># 发送邮件</span><br><span class="line">yag.send(&apos;zhaoolee@gmail.com&apos;, &apos;主题:学习使我快乐&apos;, contents)</span><br></pre></td></tr></table></figure>
-
-<h2 id="图片资源在此"><a href="#图片资源在此" class="headerlink" title="图片资源在此:"></a>图片资源在此:</h2><blockquote>
-<p><img src="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/f0d68a44d83322c194482f4c28adfc36.png" alt="girl.jpg"></p>
-</blockquote>
-<blockquote>
-<p><img src="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/342f5110530330f2fc61b1198d6c3080.png" alt="gmail收到的邮件"><br><img src="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/a7cc6caa5d9cadd8fdef46754437f85c.png" alt="qq邮箱收到的邮件"></p>
-</blockquote>
-<blockquote>
-<p>如何获取163邮箱授权码?<br><img src="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/245479d46b420b90ace78fc62fc1ae9b.png" alt="设置 =&gt; POP3/SMTP/IMAP"><br><img src="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/e3cfd472a30bfa823e3b1252a4d92d1a.png" alt="设置授权码"><br><img src="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/8a00504611a070226e4ce78a66c658b7.png" alt="弹框提示"></p>
-</blockquote>
-
-          
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
       
 
       
       
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
       
 
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://zhaoolee.github.io/GBlog/GBlog/2019/07/01/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="zhaoolee">
-      <meta itemprop="description" content="zhaoolee基于github仓库的静态博客">
-      <meta itemprop="image" content="/GBlog/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="zhaoolee的博客">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/GBlog/2019/07/01/hello-world/" class="post-title-link" itemprop="url">Hello World</a>
-              
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
             
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
+              <a href="/GBlog/2019/07/02/python-send-mail/" rel="next" title="3行代码发邮件(含发送图片)">
+                <i class="fa fa-chevron-left"></i> 3行代码发邮件(含发送图片)
+              </a>
             
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
             
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2019-07-01 09:15:22" itemprop="dateCreated datePublished" datetime="2019-07-01T09:15:22+08:00">2019-07-01</time>
-            
-
-            
-          </span>
-
-          
-
-          
-            
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
+          </div>
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-          
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -791,14 +511,19 @@
   </article>
 
 
-    
-  </section>
-
-  
+  </div>
 
 
           </div>
           
+
+  
+    <div class="comments" id="gitalk-container">
+    </div>
+
+  
+
+
 
         </div>
         
@@ -818,8 +543,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <div class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -878,6 +612,23 @@
         </div>
       </div>
 
+      
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-6"><a class="nav-link" href="#pandoc支持相互转换的格式-多的惊人"><span class="nav-number">1.</span> <span class="nav-text">pandoc支持相互转换的格式, 多的惊人!</span></a></li></ol><li class="nav-item nav-level-2"><a class="nav-link" href="#Pandoc主站链接"><span class="nav-number"></span> <span class="nav-text">Pandoc主站链接</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安装包下载地址"><span class="nav-number"></span> <span class="nav-text">安装包下载地址</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#使用技巧"><span class="nav-number"></span> <span class="nav-text">使用技巧:</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#windows用户安装pandoc"><span class="nav-number"></span> <span class="nav-text">windows用户安装pandoc</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-下载32位免安装版软件包"><span class="nav-number"></span> <span class="nav-text">1.下载32位免安装版软件包</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-将软件包放入c盘-并解压"><span class="nav-number"></span> <span class="nav-text">2.将软件包放入c盘, 并解压</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-获取pandoc-exe的绝对路径"><span class="nav-number"></span> <span class="nav-text">3.获取pandoc.exe的绝对路径</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-将pandoc-exe的绝对路径放入环境变量"><span class="nav-number"></span> <span class="nav-text">4. 将pandoc.exe的绝对路径放入环境变量</span></a></li></ol></li></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
       
 
       
@@ -1006,6 +757,10 @@
 
 
   
+  <script src="/GBlog/js/scrollspy.js?v=7.1.2"></script>
+<script src="/GBlog/js/post-details.js?v=7.1.2"></script>
+
+
 
   
 
@@ -1021,6 +776,37 @@
 
   
 
+
+  
+    
+
+<script src="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+
+
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
+
+
+
+<script src="//cdn.jsdelivr.net/npm/js-md5@0.7.3/src/md5.min.js"></script>
+
+<script>
+  var gitalk = new Gitalk({
+    clientID: 'fcfeca14739ad63b029c',
+    clientSecret: '191c171c5954a566e184f8a22b2c7a4b0b224759',
+    repo: 'GBlog',
+    owner: 'zhaoolee',
+    admin: ['zhaoolee'],
+    id: md5(location.pathname),
+    
+      language: 'zh-CN',
+    
+    distractionFreeMode: 'true'
+  });
+  gitalk.render('gitalk-container');
+</script>
+
+  
 
 
   

@@ -9,9 +9,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "hexo server -p 5000",
     "build": "hexo clean && hexo g",
+    "push": "hexo clean && hexo g && git add . && git commit -m 'zhaoolee commit' && git push",
     "clean": "hexo clean",
     "start": "hexo server",
-    "new": "hexo new post new_article"
+    "new": "hexo new post article-$(date '+%Y-%m-%d-%H-%M-%S')"
   },
   "dependencies": {
     "hexo": "^3.9.0",

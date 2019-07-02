@@ -19,8 +19,8 @@
       <file leaf-file-name="_config.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/next/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="995" column="11" lean-forward="false" selection-start-line="995" selection-start-column="0" selection-end-line="995" selection-end-column="11" />
+            <state relative-caret-position="306">
+              <caret line="181" column="0" lean-forward="false" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -115,8 +115,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18600">
-              <caret line="992" column="52" lean-forward="false" selection-start-line="992" selection-start-column="52" selection-end-line="992" selection-end-column="52" />
+            <state relative-caret-position="18576">
+              <caret line="991" column="52" lean-forward="false" selection-start-line="991" selection-start-column="52" selection-end-line="991" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -134,6 +134,8 @@
       <find>jquery.min.js</find>
       <find>cloudflare</find>
       <find>canvas_nest</find>
+      <find>theme</find>
+      <find>Scheme</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -170,8 +172,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="194" />
-    <option name="y" value="63" />
+    <option name="x" value="196" />
+    <option name="y" value="580" />
     <option name="width" value="1560" />
     <option name="height" value="802" />
   </component>
@@ -264,15 +266,15 @@
       <option name="presentableId" value="Default" />
       <updated>1562026857292</updated>
       <workItem from="1562026859985" duration="4848000" />
-      <workItem from="1562033318197" duration="1605000" />
+      <workItem from="1562033318197" duration="2011000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6453000" />
+    <option name="totallyTimeSpent" value="6859000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="194" y="63" width="1560" height="802" extended-state="0" />
+    <frame x="196" y="580" width="1560" height="802" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -407,8 +409,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18600">
-          <caret line="992" column="52" lean-forward="false" selection-start-line="992" selection-start-column="52" selection-end-line="992" selection-end-column="52" />
+        <state relative-caret-position="18576">
+          <caret line="991" column="52" lean-forward="false" selection-start-line="991" selection-start-column="52" selection-end-line="991" selection-end-column="52" />
           <folding />
         </state>
       </provider>
@@ -485,8 +487,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/next/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="995" column="11" lean-forward="false" selection-start-line="995" selection-start-column="0" selection-end-line="995" selection-end-column="11" />
+        <state relative-caret-position="306">
+          <caret line="181" column="0" lean-forward="false" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -10,6 +10,7 @@ pandoc 毕业论文.md -o 毕业论文.docx
 ```
 即可根据md文件生成新的docx文件! 
 
+<!-- more -->
 ###### pandoc支持相互转换的格式, 多的惊人!  
 > ![pandoc](https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/7c842ad61192e2828f14c335c9c0d634.jpeg)
 ## Pandoc[主站链接](https://pandoc.org/index.html)
@@ -22,7 +23,6 @@ pandoc 毕业论文.md -o 毕业论文.docx
 - 懒是第一生产力, pandoc可以在命令行运行, 所以, 我们可以配合python脚本将`md`格式批量转换为`docx`
 - 这是我写的一个简易脚本
 
-<!-- more -->
 
 ```python
 import os  

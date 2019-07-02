@@ -100,7 +100,7 @@ creative_commons:
 
 # `Follow me on GitHub` banner in the top-right corner.
 github_banner:
-  enable: true
+  enable: false
   permalink: https://github.com/zhaoolee
   title: Follow me on GitHub
 
@@ -997,10 +997,10 @@ pace_theme: pace-theme-minimal
 canvas_nest:
   enable: true
   onmobile: true # display on mobile or not
-  color: "0,0,255" # RGB values, use ',' to separate
-  opacity: 0.5 # the opacity of line: 0~1
+  color: "255,255,255" # RGB values, use ',' to separate
+  opacity: 0.3 # the opacity of line: 0~1
   zIndex: -1 # z-index property of the background
-  count: 99 # the number of lines
+  count: 10 # the number of lines
 
 # JavaScript 3D library.
 # Dependencies: https://github.com/theme-next/theme-next-three

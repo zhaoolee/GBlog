@@ -13,6 +13,8 @@ categories:
 ###### Kali是一套用于安全渗透(黑客)的Linux发行版, 好处在于, 系统内置了大量的安全渗透方面的软件, 新手可以免于配置, 开箱即用! 
 > 即使不打算做安全, 开阔一下眼界也是好的~
 > ![动图: 内置工具](https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/645e5f4866fdbb1d87efcb06b10deb14.gif)
+
+<!-- more -->
 ###### Kali安装的过程中, 给出了太多的选项, 这里详细记录了安装配置的过程
 
 ## 第一部分: 获取镜像(kali-linux-2018.1-amd64), 配置虚拟机(VMware 专业版 10.1.0 )

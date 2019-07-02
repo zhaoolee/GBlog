@@ -79,3 +79,11 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+
+# 添加第三方本地搜索
+
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000

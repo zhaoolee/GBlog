@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2FGBlog%2F2019%2F07%2F02%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[Python将md批量转为docx.md]]></title>
+    <url>%2FGBlog%2F2019%2F07%2F02%2Fmd-to-word%2F</url>
+    <content type="text"><![CDATA[这两天写毕业论文, 发现了一个可以将markdown快速转为word格式的小工具pandoc, 非常好用, 比如我有一个名为毕业论文.md的文件, 我只需在命令行运行 1pandoc 毕业论文.md -o 毕业论文.docx 即可根据md文件生成新的docx文件! pandoc支持相互转换的格式, 多的惊人! Pandoc主站链接 安装包下载地址 使用技巧: 由于word确实很难用, 我们可以用md格式书写, 然后转换成docx 懒是第一生产力, pandoc可以在命令行运行, 所以, 我们可以配合python脚本将md格式批量转换为docx 这是我写的一个简易脚本 12345678910111213141516171819202122232425262728293031323334import os def auto_md_to_docx(file_dir): # 获取当前目录下所有的md文件的路径信息 all_whole_path_files = [] for root, dirs, files in os.walk(file_dir): for file in files: try: if file[-3:] == ".md": file_info = [root+'/', file] all_whole_path_files.append(file_info) except Exception as e: print(e) print("==&gt;", all_whole_path_files) # 将md依次转换为pandoc for file_info in all_whole_path_files: md_file_path_file = file_info[0] + file_info[1] docx_file_name = file_info[1][:-3] + '.docx' docx_file_path_file = file_info[0] + docx_file_name new_command = 'pandoc ' + md_file_path_file + ' -o ' + docx_file_path_file try: result = os.popen(new_command).readlines() if len(result) == 0: print(md_file_path_file, "已经转换为", docx_file_path_file) except Exception as e: print(e)def main(): auto_md_to_docx('.')if __name__ == '__main__': main() windows用户安装pandoc1.下载32位免安装版软件包下载地址: https://github.com/jgm/pandoc/releases/tag/2.2.1 2.将软件包放入c盘, 并解压 3.获取pandoc.exe的绝对路径 4. 将pandoc.exe的绝对路径放入环境变量 值得一提的是, 我这里用的md测试文件, 都是从我的简书后台打包下载的, 也就是本地是不存在图片的, 而pandoc会自动帮我们把图片下载到本地, 然后保存到新生成的doc中. 只要将我的脚本稍加修改, 就可以按照上面的网状图, 进行任意两种格式的互转(比如word转pdf), 有兴趣的小伙伴可以自己动手折腾一下 另外, 小白福利, 我把这篇博客做成了视频 https://www.bilibili.com/video/av24136955/欢迎观看, 欢迎投币, 欢迎弹幕, 欢迎转发]]></content>
+      <categories>
+        <category>程序员</category>
+      </categories>
+      <tags>
+        <tag>Python</tag>
+        <tag>Word</tag>
+        <tag>Markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[3行代码发邮件(含发送图片)]]></title>
+    <url>%2FGBlog%2F2019%2F07%2F02%2Fpython-send-mail%2F</url>
+    <content type="text"><![CDATA[最近有发邮件的需求发现了一个python发邮件的开源项目yagmail, 3行代码搞定邮件, 很赞 以下三行代码实现的功能 发送超链接 发送图片资源(支持发送各种静态资源, 文件名最好是英文) 源码12345678910import yagmail# 连接邮箱服务器yag = yagmail.SMTP(user=&quot;lijianzhaoyou@163.com&quot;, password=&quot;填自己的&quot;, host=&apos;smtp.163.com&apos;)# 邮箱正文contents = [&apos;今天是周末,我要学习, 学习使我快乐;&apos;, &apos;&lt;a href=&quot;https://www.python.org/&quot;&gt;python官网的超链接&lt;/a&gt;&apos;, &apos;./girl.jpg&apos;]# 发送邮件yag.send(&apos;zhaoolee@gmail.com&apos;, &apos;主题:学习使我快乐&apos;, contents) 图片资源在此: 如何获取163邮箱授权码?]]></content>
+      <categories>
+        <category>程序员</category>
+      </categories>
+      <tags>
+        <tag>Python</tag>
+        <tag>mail</tag>
+      </tags>
+  </entry>
+</search>

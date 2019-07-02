@@ -5,7 +5,7 @@ tags:
 - Linux
 - Kali
 categories:
-- Linux
+- Linux老司机
 ---
 
 > ![Kali](https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/a569ba44eb6ab113e906a6c308270149.png)

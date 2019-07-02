@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3ac6f59-8ea3-4151-9d4f-2e39c5171392" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
-      <change beforePath="$PROJECT_DIR$/docs/css/main.css" afterPath="$PROJECT_DIR$/docs/css/main.css" />
       <change beforePath="$PROJECT_DIR$/themes/next/_config.yml" afterPath="$PROJECT_DIR$/themes/next/_config.yml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -29,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/next/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+            <state relative-caret-position="371">
+              <caret line="1049" column="68" lean-forward="false" selection-start-line="1049" selection-start-column="62" selection-end-line="1049" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -52,7 +49,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
@@ -76,7 +73,7 @@
         <entry file="file://$PROJECT_DIR$/docs/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="14544">
-              <caret line="606" column="52" lean-forward="false" selection-start-line="606" selection-start-column="52" selection-end-line="606" selection-end-column="52" />
+              <caret line="766" column="52" lean-forward="false" selection-start-line="766" selection-start-column="52" selection-end-line="766" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -87,10 +84,10 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>jquery.min.js</find>
-      <find>jquery</find>
       <find>gitalk</find>
       <find>time</find>
       <find>zone</find>
+      <find>jquery</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -103,8 +100,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/source/_posts/new-article.md" />
-        <option value="$PROJECT_DIR$/themes/next/_config.yml" />
         <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/themes/next/_config.yml" />
       </list>
     </option>
   </component>
@@ -120,8 +117,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="48" />
-    <option name="y" value="174" />
+    <option name="x" value="73" />
+    <option name="y" value="314" />
     <option name="width" value="1560" />
     <option name="height" value="802" />
   </component>
@@ -213,15 +210,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562026857292</updated>
-      <workItem from="1562026859985" duration="2599000" />
+      <workItem from="1562026859985" duration="2880000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2599000" />
+    <option name="totallyTimeSpent" value="2880000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="48" y="174" width="1560" height="802" extended-state="0" />
+    <frame x="73" y="314" width="1560" height="802" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -274,7 +271,7 @@
     <entry file="file://$PROJECT_DIR$/docs/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14544">
-          <caret line="606" column="52" lean-forward="false" selection-start-line="606" selection-start-column="52" selection-end-line="606" selection-end-column="52" />
+          <caret line="766" column="52" lean-forward="false" selection-start-line="766" selection-start-column="52" selection-end-line="766" selection-end-column="52" />
           <folding />
         </state>
       </provider>
@@ -298,7 +295,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/next/_config.yml">
+    <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
@@ -306,10 +303,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
+    <entry file="file://$PROJECT_DIR$/themes/next/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        <state relative-caret-position="371">
+          <caret line="1049" column="68" lean-forward="false" selection-start-line="1049" selection-start-column="62" selection-end-line="1049" selection-end-column="68" />
           <folding />
         </state>
       </provider>

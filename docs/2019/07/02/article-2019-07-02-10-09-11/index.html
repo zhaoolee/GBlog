@@ -118,7 +118,7 @@
 <meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/591fd880e325bd1d7f29e72542aa0177.png">
 <meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/1241fa13c7de2022f46f806394553a6b.png">
 <meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/14e09c7c60e52c998b986ecf0b083447.png">
-<meta property="og:updated_time" content="2019-07-02T02:11:07.239Z">
+<meta property="og:updated_time" content="2019-07-02T03:07:29.133Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Python将md批量转为docx.md">
 <meta name="twitter:description" content="这两天写毕业论文, 发现了一个可以将markdown快速转为word格式的小工具pandoc, 非常好用, 比如我有一个名为毕业论文.md的文件, 我只需在命令行运行  1pandoc 毕业论文.md -o 毕业论文.docx  即可根据md文件生成新的docx文件!  pandoc支持相互转换的格式, 多的惊人!   Pandoc主站链接   安装包下载地址   使用技巧: 由于word确实很">
@@ -398,7 +398,7 @@
                 
               
 
-              <time title="创建时间：2019-07-02 10:09:12 / 修改时间：10:11:07" itemprop="dateCreated datePublished" datetime="2019-07-02T10:09:12+08:00">2019-07-02</time>
+              <time title="创建时间：2019-07-02 10:09:12 / 修改时间：11:07:29" itemprop="dateCreated datePublished" datetime="2019-07-02T10:09:12+08:00">2019-07-02</time>
             
 
             
@@ -457,6 +457,8 @@
 <li>懒是第一生产力, pandoc可以在命令行运行, 所以, 我们可以配合python脚本将<code>md</code>格式批量转换为<code>docx</code></li>
 <li>这是我写的一个简易脚本</li>
 </ul>
+<a id="more"></a>
+
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> os  </span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">auto_md_to_docx</span><span class="params">(file_dir)</span>:</span></span><br><span class="line">    <span class="comment"># 获取当前目录下所有的md文件的路径信息</span></span><br><span class="line">    all_whole_path_files = []</span><br><span class="line">    <span class="keyword">for</span> root, dirs, files <span class="keyword">in</span> os.walk(file_dir):</span><br><span class="line">        <span class="keyword">for</span> file <span class="keyword">in</span> files:</span><br><span class="line">            <span class="keyword">try</span>:</span><br><span class="line">                <span class="keyword">if</span> file[<span class="number">-3</span>:] == <span class="string">".md"</span>:</span><br><span class="line">                    file_info = [root+<span class="string">'/'</span>, file]</span><br><span class="line">                    all_whole_path_files.append(file_info)</span><br><span class="line">            <span class="keyword">except</span> Exception <span class="keyword">as</span> e:</span><br><span class="line">                print(e)</span><br><span class="line">    print(<span class="string">"==&gt;"</span>, all_whole_path_files)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 将md依次转换为pandoc</span></span><br><span class="line">    <span class="keyword">for</span> file_info <span class="keyword">in</span> all_whole_path_files:</span><br><span class="line">        md_file_path_file = file_info[<span class="number">0</span>] + file_info[<span class="number">1</span>]</span><br><span class="line">        docx_file_name = file_info[<span class="number">1</span>][:<span class="number">-3</span>] + <span class="string">'.docx'</span></span><br><span class="line">        docx_file_path_file = file_info[<span class="number">0</span>] + docx_file_name</span><br><span class="line">        new_command = <span class="string">'pandoc '</span> + md_file_path_file + <span class="string">' -o '</span> + docx_file_path_file</span><br><span class="line"></span><br><span class="line">        <span class="keyword">try</span>:</span><br><span class="line">            result = os.popen(new_command).readlines()</span><br><span class="line">            <span class="keyword">if</span> len(result) == <span class="number">0</span>:</span><br><span class="line">                print(md_file_path_file, <span class="string">"已经转换为"</span>, docx_file_path_file)</span><br><span class="line">        <span class="keyword">except</span> Exception <span class="keyword">as</span> e:</span><br><span class="line">            print(e)</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">main</span><span class="params">()</span>:</span></span><br><span class="line">    auto_md_to_docx(<span class="string">'.'</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">'__main__'</span>:</span><br><span class="line">    main()</span><br></pre></td></tr></table></figure>
 
 <blockquote>
@@ -542,6 +544,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/GBlog/2019/07/02/hello-world/" rel="prev" title="Hello World">
+                Hello World <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>

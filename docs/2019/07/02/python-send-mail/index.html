@@ -96,13 +96,13 @@
 
 
 
-  <meta name="description" content="最近有发邮件的需求发现了一个python发邮件的开源项目yagmail, 3行代码搞定邮件, 很赞  以下三行代码实现的功能 发送超链接 发送图片资源(支持发送各种静态资源, 文件名最好是英文)  源码12345678910import yagmail# 连接邮箱服务器yag = yagmail.SMTP(user=&amp;quot;lijianzhaoyou@163.com&amp;quot;, passw">
+  <meta name="description" content="最近有发邮件的需求发现了一个python发邮件的开源项目yagmail, 3行代码搞定邮件, 很赞  以下三行代码实现的功能 发送超链接 发送图片资源(支持发送各种静态资源, 文件名最好是英文)">
 <meta name="keywords" content="zhaoolee 木子昭 博客">
 <meta property="og:type" content="article">
 <meta property="og:title" content="3行代码发邮件(含发送图片)">
 <meta property="og:url" content="http://zhaoolee.github.io/GBlog/2019/07/02/python-send-mail/index.html">
 <meta property="og:site_name" content="zhaoolee的博客">
-<meta property="og:description" content="最近有发邮件的需求发现了一个python发邮件的开源项目yagmail, 3行代码搞定邮件, 很赞  以下三行代码实现的功能 发送超链接 发送图片资源(支持发送各种静态资源, 文件名最好是英文)  源码12345678910import yagmail# 连接邮箱服务器yag = yagmail.SMTP(user=&amp;quot;lijianzhaoyou@163.com&amp;quot;, passw">
+<meta property="og:description" content="最近有发邮件的需求发现了一个python发邮件的开源项目yagmail, 3行代码搞定邮件, 很赞  以下三行代码实现的功能 发送超链接 发送图片资源(支持发送各种静态资源, 文件名最好是英文)">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/f0d68a44d83322c194482f4c28adfc36.png">
 <meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/342f5110530330f2fc61b1198d6c3080.png">
@@ -110,10 +110,10 @@
 <meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/245479d46b420b90ace78fc62fc1ae9b.png">
 <meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/e3cfd472a30bfa823e3b1252a4d92d1a.png">
 <meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/8a00504611a070226e4ce78a66c658b7.png">
-<meta property="og:updated_time" content="2019-07-02T01:22:04.507Z">
+<meta property="og:updated_time" content="2019-07-02T03:07:41.810Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="3行代码发邮件(含发送图片)">
-<meta name="twitter:description" content="最近有发邮件的需求发现了一个python发邮件的开源项目yagmail, 3行代码搞定邮件, 很赞  以下三行代码实现的功能 发送超链接 发送图片资源(支持发送各种静态资源, 文件名最好是英文)  源码12345678910import yagmail# 连接邮箱服务器yag = yagmail.SMTP(user=&amp;quot;lijianzhaoyou@163.com&amp;quot;, passw">
+<meta name="twitter:description" content="最近有发邮件的需求发现了一个python发邮件的开源项目yagmail, 3行代码搞定邮件, 很赞  以下三行代码实现的功能 发送超链接 发送图片资源(支持发送各种静态资源, 文件名最好是英文)">
 <meta name="twitter:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/f0d68a44d83322c194482f4c28adfc36.png">
 
 
@@ -390,7 +390,7 @@
                 
               
 
-              <time title="创建时间：2019-07-02 09:20:22 / 修改时间：09:22:04" itemprop="dateCreated datePublished" datetime="2019-07-02T09:20:22+08:00">2019-07-02</time>
+              <time title="创建时间：2019-07-02 09:20:22 / 修改时间：11:07:41" itemprop="dateCreated datePublished" datetime="2019-07-02T09:20:22+08:00">2019-07-02</time>
             
 
             
@@ -436,6 +436,8 @@
 <li>发送超链接</li>
 <li>发送图片资源(支持发送各种静态资源, 文件名最好是英文)</li>
 </ul>
+<a id="more"></a>
+
 <h2 id="源码"><a href="#源码" class="headerlink" title="源码"></a>源码</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">import yagmail</span><br><span class="line"></span><br><span class="line"># 连接邮箱服务器</span><br><span class="line">yag = yagmail.SMTP(user=&quot;lijianzhaoyou@163.com&quot;, password=&quot;填自己的&quot;, host=&apos;smtp.163.com&apos;)</span><br><span class="line"></span><br><span class="line"># 邮箱正文</span><br><span class="line">contents = [&apos;今天是周末,我要学习, 学习使我快乐;&apos;, &apos;&lt;a href=&quot;https://www.python.org/&quot;&gt;python官网的超链接&lt;/a&gt;&apos;, &apos;./girl.jpg&apos;]</span><br><span class="line"></span><br><span class="line"># 发送邮件</span><br><span class="line">yag.send(&apos;zhaoolee@gmail.com&apos;, &apos;主题:学习使我快乐&apos;, contents)</span><br></pre></td></tr></table></figure>
 
 <h2 id="图片资源在此"><a href="#图片资源在此" class="headerlink" title="图片资源在此:"></a>图片资源在此:</h2><blockquote>
@@ -476,10 +478,6 @@
       
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
-            
-              <a href="/GBlog/2019/07/01/hello-world/" rel="next" title="Hello World">
-                <i class="fa fa-chevron-left"></i> Hello World
-              </a>
             
           </div>
 

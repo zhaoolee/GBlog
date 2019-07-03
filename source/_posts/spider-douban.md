@@ -12,6 +12,7 @@ categories:
 
 > ![给人用的爬虫工具Requests](https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/323975b7851a9eb6698d45b65fa02e80.png)
 
+<!-- more -->
 ## 工具介绍:
 > Python3(python是很容易上手的编程语言,非常适合编程新手)
 > Requests(这是Python的一个开发库, 简洁好用)

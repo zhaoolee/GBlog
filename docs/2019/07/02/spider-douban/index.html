@@ -103,13 +103,13 @@
 
 
 
-  <meta name="description" content="有人想学一点编程, 但是一直没有找到感兴趣的切入点,可以简单的爬虫入手! 几十行代码, 轻松爬取豆瓣Top250电影数据,即刻体会编程的乐趣…    工具介绍: Python3(python是很容易上手的编程语言,非常适合编程新手)Requests(这是Python的一个开发库, 简洁好用)lxml (可以通过xpath语法, 按需求提取内容)  运行效果   自动生成的文件   关于Reque">
+  <meta name="description" content="有人想学一点编程, 但是一直没有找到感兴趣的切入点,可以简单的爬虫入手! 几十行代码, 轻松爬取豆瓣Top250电影数据,即刻体会编程的乐趣…">
 <meta name="keywords" content="Python,爬虫">
 <meta property="og:type" content="article">
 <meta property="og:title" content="《进击的虫师》爬取豆瓣电影海报(Top250)">
 <meta property="og:url" content="http://zhaoolee.github.io/GBlog/2019/07/02/spider-douban/index.html">
 <meta property="og:site_name" content="zhaoolee的博客">
-<meta property="og:description" content="有人想学一点编程, 但是一直没有找到感兴趣的切入点,可以简单的爬虫入手! 几十行代码, 轻松爬取豆瓣Top250电影数据,即刻体会编程的乐趣…    工具介绍: Python3(python是很容易上手的编程语言,非常适合编程新手)Requests(这是Python的一个开发库, 简洁好用)lxml (可以通过xpath语法, 按需求提取内容)  运行效果   自动生成的文件   关于Reque">
+<meta property="og:description" content="有人想学一点编程, 但是一直没有找到感兴趣的切入点,可以简单的爬虫入手! 几十行代码, 轻松爬取豆瓣Top250电影数据,即刻体会编程的乐趣…">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/323975b7851a9eb6698d45b65fa02e80.png">
 <meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/02ee92b466e7fc0f4aa5dd6eb32ae425.gif">
@@ -120,10 +120,10 @@
 <meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/aa891632d974796a2efaa9792f20f7a7.png">
 <meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/e050ea3e1e1be4f36bb2489c2acf9427.png">
 <meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/fd5aafd98e337ebfa37d9d397ad10049.png">
-<meta property="og:updated_time" content="2019-07-02T08:47:17.788Z">
+<meta property="og:updated_time" content="2019-07-03T00:44:44.287Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="《进击的虫师》爬取豆瓣电影海报(Top250)">
-<meta name="twitter:description" content="有人想学一点编程, 但是一直没有找到感兴趣的切入点,可以简单的爬虫入手! 几十行代码, 轻松爬取豆瓣Top250电影数据,即刻体会编程的乐趣…    工具介绍: Python3(python是很容易上手的编程语言,非常适合编程新手)Requests(这是Python的一个开发库, 简洁好用)lxml (可以通过xpath语法, 按需求提取内容)  运行效果   自动生成的文件   关于Reque">
+<meta name="twitter:description" content="有人想学一点编程, 但是一直没有找到感兴趣的切入点,可以简单的爬虫入手! 几十行代码, 轻松爬取豆瓣Top250电影数据,即刻体会编程的乐趣…">
 <meta name="twitter:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/323975b7851a9eb6698d45b65fa02e80.png">
 
 
@@ -370,8 +370,9 @@
 
   
 
-
-
+<script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css">
+<script src="/GBlog/live2d-widget-master/autoload.js"></script>
 </div>
     </header>
 
@@ -444,12 +445,24 @@
                 
               
 
-              <time title="创建时间：2019-07-02 16:44:37 / 修改时间：16:47:17" itemprop="dateCreated datePublished" datetime="2019-07-02T16:44:37+08:00">2019-07-02</time>
+              <time title="创建时间：2019-07-02 16:44:37" itemprop="dateCreated datePublished" datetime="2019-07-02T16:44:37+08:00">2019-07-02</time>
             
 
             
               
 
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-07-03 08:44:44" itemprop="dateModified" datetime="2019-07-03T08:44:44+08:00">2019-07-03</time>
               
             
           </span>
@@ -506,6 +519,7 @@
 <blockquote>
 <p><img src="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/323975b7851a9eb6698d45b65fa02e80.png" alt="给人用的爬虫工具Requests"></p>
 </blockquote>
+<a id="more"></a>
 <h2 id="工具介绍"><a href="#工具介绍" class="headerlink" title="工具介绍:"></a>工具介绍:</h2><blockquote>
 <p>Python3(python是很容易上手的编程语言,非常适合编程新手)<br>Requests(这是Python的一个开发库, 简洁好用)<br>lxml (可以通过xpath语法, 按需求提取内容)</p>
 </blockquote>
@@ -1361,5 +1375,5 @@
 
   
 
-</body>
+<script src="/GBlog/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
 </html>

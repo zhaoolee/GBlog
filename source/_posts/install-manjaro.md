@@ -18,6 +18,7 @@ categories:
 原文链接: https://distrowatch.com/table.php?distribution=manjaro
 
 
+<!-- more -->
 
 ## 获取manjaro
 - 进入官网获取镜像 https://manjaro.org/download/

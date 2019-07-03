@@ -576,8 +576,8 @@ bookmark:
 # Reading progress bar
 # Dependencies: https://github.com/theme-next/theme-next-reading-progress
 reading_progress:
-  enable: false
-  color: "#37c6c0"
+  enable: true
+  color: "#419388"
   height: 2px
 
 # Google Calendar

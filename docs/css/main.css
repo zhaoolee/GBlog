@@ -1640,6 +1640,16 @@ pre .javascript .function {
 .rtl.post-title {
   font-family: UKIJ Ekran;
 }
+.reading-progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #419388;
+}
 .sidebar {
   position: fixed;
   right: 0;
@@ -1774,7 +1784,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #90ff34;
+  background: #91ff7e;
 }
 .feed-link,
 .chat {

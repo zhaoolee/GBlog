@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://zhaoolee.github.io/GBlog/live2d-widget-master/waifu-tips.json</loc>
+    
+    <lastmod>2019-07-03T02:23:58.818Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://zhaoolee.github.io/GBlog/2019/07/02/spider-douban/</loc>
     
     <lastmod>2019-07-03T00:44:44.287Z</lastmod>
@@ -58,14 +65,7 @@
   </url>
   
   <url>
-    <loc>http://zhaoolee.github.io/GBlog/live2d-widget-master/README.html</loc>
-    
-    <lastmod>2019-06-12T15:42:06.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhaoolee.github.io/GBlog/live2d-widget-master/waifu-tips.json</loc>
+    <loc>http://zhaoolee.github.io/GBlog/live2d-widget-master/demo/demo2.html</loc>
     
     <lastmod>2019-06-12T15:42:06.000Z</lastmod>
     
@@ -79,7 +79,7 @@
   </url>
   
   <url>
-    <loc>http://zhaoolee.github.io/GBlog/live2d-widget-master/demo/demo2.html</loc>
+    <loc>http://zhaoolee.github.io/GBlog/live2d-widget-master/README.html</loc>
     
     <lastmod>2019-06-12T15:42:06.000Z</lastmod>
     

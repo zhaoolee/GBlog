@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c3ac6f59-8ea3-4151-9d4f-2e39c5171392" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-    </list>
+    <list default="true" id="c3ac6f59-8ea3-4151-9d4f-2e39c5171392" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -37,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="144">
+              <first_editor relative-caret-position="139">
                 <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
                 <folding />
               </first_editor>
@@ -83,7 +80,7 @@
       <file leaf-file-name="waifu-tips.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/live2d-widget-master/waifu-tips.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5160">
+            <state relative-caret-position="3927">
               <caret line="215" column="16" lean-forward="false" selection-start-line="215" selection-start-column="16" selection-end-line="215" selection-end-column="16" />
               <folding>
                 <marker date="1562120785520" expanded="true" signature="1102:1576" ph="..." />
@@ -101,7 +98,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="waifu-tips.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="waifu-tips.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/live2d-widget-master/waifu-tips.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
@@ -212,8 +209,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="186" />
-    <option name="y" value="252" />
+    <option name="x" value="444" />
+    <option name="y" value="170" />
     <option name="width" value="1560" />
     <option name="height" value="802" />
   </component>
@@ -313,15 +310,15 @@
       <updated>1562026857292</updated>
       <workItem from="1562026859985" duration="4848000" />
       <workItem from="1562033318197" duration="8773000" />
-      <workItem from="1562115221385" duration="4442000" />
+      <workItem from="1562115221385" duration="5466000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18063000" />
+    <option name="totallyTimeSpent" value="19087000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="186" y="252" width="1560" height="802" extended-state="0" />
+    <frame x="444" y="170" width="1560" height="802" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -731,14 +728,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/live2d-widget-master/waifu-tips.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="32" lean-forward="false" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/live2d-widget-master/waifu.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4847">
@@ -747,9 +736,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="139">
+            <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/source/live2d-widget-master/waifu-tips.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5160">
+        <state relative-caret-position="3927">
           <caret line="215" column="16" lean-forward="false" selection-start-line="215" selection-start-column="16" selection-end-line="215" selection-end-column="16" />
           <folding>
             <marker date="1562120785520" expanded="true" signature="1102:1576" ph="..." />
@@ -766,14 +766,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="144">
-            <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-            <folding />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/source/live2d-widget-master/waifu-tips.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="32" lean-forward="false" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>

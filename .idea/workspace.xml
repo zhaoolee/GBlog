@@ -3,101 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c3ac6f59-8ea3-4151-9d4f-2e39c5171392" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
-      <change beforePath="$PROJECT_DIR$/docs/2019/07/02/install-kali/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2019/07/02/install-manjaro/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2019/07/02/md-to-word/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2019/07/02/python-send-mail/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2019/07/02/spider-douban/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/about/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/archives/2019/07/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/archives/2019/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/archives/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/baidusitemap.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/categories/Linux老司机/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/categories/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/categories/程序员/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/categories/进击的虫师/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/css/main.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/images/algolia_logo.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/images/apple-touch-icon-next.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/images/avatar.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/images/background.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/images/cc-by-nc-nd.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/images/cc-by-nc-sa.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/images/cc-by-nc.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/images/cc-by-nd.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/images/cc-by-sa.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/images/cc-by.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/images/cc-zero.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/images/chuyin.ico" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/images/cursor_1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/images/favicon-16x16-next.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/images/favicon-32x32-next.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/images/loading.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/images/logo.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/images/placeholder.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/images/quote-l.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/images/quote-r.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/images/searchicon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/js/affix.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/js/algolia-search.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/js/exturl.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/js/js.cookie.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/js/motion.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/js/next-boot.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/js/post-details.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/js/schemes/muse.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/js/schemes/pisces.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/js/scroll-cookie.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/js/scrollspy.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/js/utils.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/lib/font-awesome/HELP-US-OUT.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/lib/font-awesome/bower.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/lib/font-awesome/css/font-awesome.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/lib/font-awesome/css/font-awesome.css.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/lib/font-awesome/css/font-awesome.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/lib/font-awesome/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/lib/font-awesome/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/lib/font-awesome/fonts/fontawesome-webfont.woff2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/lib/jquery/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/lib/velocity/velocity.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/lib/velocity/velocity.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/lib/velocity/velocity.ui.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/lib/velocity/velocity.ui.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/live2d-widget-master/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/live2d-widget-master/README.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/live2d-widget-master/assets/screenshot-1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/live2d-widget-master/assets/screenshot-2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/live2d-widget-master/assets/screenshot-3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/live2d-widget-master/autoload.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/live2d-widget-master/demo/demo1.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/live2d-widget-master/demo/demo2.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/live2d-widget-master/live2d.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/live2d-widget-master/waifu-tips.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/live2d-widget-master/waifu-tips.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/live2d-widget-master/waifu.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/live2dw/lib/L2Dwidget.0.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/live2dw/lib/L2Dwidget.0.min.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/live2dw/lib/L2Dwidget.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/live2dw/lib/L2Dwidget.min.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/search.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/sitemap.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/tags/Kali/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/tags/Linux/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/tags/Manjaro/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/tags/Markdown/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/tags/Python/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/tags/Word/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/tags/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/tags/mail/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/tags/爬虫/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change beforePath="$PROJECT_DIR$/source/live2d-widget-master/waifu-tips.js" afterPath="$PROJECT_DIR$/source/live2d-widget-master/waifu-tips.js" />
-      <change beforePath="$PROJECT_DIR$/source/live2d-widget-master/waifu-tips.json" afterPath="$PROJECT_DIR$/source/live2d-widget-master/waifu-tips.json" />
-      <change beforePath="$PROJECT_DIR$/themes/next/layout/_custom/header.swig" afterPath="$PROJECT_DIR$/themes/next/layout/_custom/header.swig" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -131,11 +37,24 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="144">
+                <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="header.swig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/next/layout/_custom/header.swig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
-              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -161,11 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="waifu-tips.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="waifu-tips.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/live2d-widget-master/waifu-tips.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="5160">
-              <caret line="215" column="16" lean-forward="true" selection-start-line="215" selection-start-column="16" selection-end-line="215" selection-end-column="16" />
+              <caret line="215" column="16" lean-forward="false" selection-start-line="215" selection-start-column="16" selection-end-line="215" selection-end-column="16" />
               <folding>
                 <marker date="1562120785520" expanded="true" signature="1102:1576" ph="..." />
                 <marker date="1562120785520" expanded="true" signature="1216:1567" ph="..." />
@@ -186,7 +105,7 @@
         <entry file="file://$PROJECT_DIR$/source/live2d-widget-master/waifu-tips.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
-              <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+              <caret line="6" column="32" lean-forward="false" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -198,19 +117,6 @@
             <state relative-caret-position="-4847">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/about/index.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="120">
-                <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-                <folding />
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -277,7 +183,6 @@
         <option value="$PROJECT_DIR$/source/_posts/python-send-mail.md" />
         <option value="$PROJECT_DIR$/source/tags/index.md" />
         <option value="$PROJECT_DIR$/source/categories/index.md" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/themes/next/_config.yml" />
         <option value="$PROJECT_DIR$/themes/next/source/css/_custom/custom.styl" />
         <option value="$PROJECT_DIR$/_config.yml" />
@@ -286,6 +191,7 @@
         <option value="$PROJECT_DIR$/themes/next/layout/_custom/header.swig" />
         <option value="$PROJECT_DIR$/source/live2d-widget-master/waifu-tips.json" />
         <option value="$PROJECT_DIR$/source/live2d-widget-master/waifu-tips.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -407,12 +313,12 @@
       <updated>1562026857292</updated>
       <workItem from="1562026859985" duration="4848000" />
       <workItem from="1562033318197" duration="8773000" />
-      <workItem from="1562115221385" duration="4022000" />
+      <workItem from="1562115221385" duration="4442000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17643000" />
+    <option name="totallyTimeSpent" value="18063000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="186" y="252" width="1560" height="802" extended-state="0" />
@@ -736,17 +642,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="72">
-            <caret line="3" column="69" lean-forward="false" selection-start-line="3" selection-start-column="69" selection-end-line="3" selection-end-column="69" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/md-to-word.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -831,7 +726,7 @@
     <entry file="file://$PROJECT_DIR$/themes/next/layout/_custom/header.swig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -839,7 +734,7 @@
     <entry file="file://$PROJECT_DIR$/source/live2d-widget-master/waifu-tips.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+          <caret line="6" column="32" lean-forward="false" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -855,7 +750,7 @@
     <entry file="file://$PROJECT_DIR$/source/live2d-widget-master/waifu-tips.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5160">
-          <caret line="215" column="16" lean-forward="true" selection-start-line="215" selection-start-column="16" selection-end-line="215" selection-end-column="16" />
+          <caret line="215" column="16" lean-forward="false" selection-start-line="215" selection-start-column="16" selection-end-line="215" selection-end-column="16" />
           <folding>
             <marker date="1562120785520" expanded="true" signature="1102:1576" ph="..." />
             <marker date="1562120785520" expanded="true" signature="1216:1567" ph="..." />
@@ -868,6 +763,17 @@
             <marker date="1562120785520" expanded="true" signature="5652:5666" ph="..." />
             <marker date="1562120785520" expanded="true" signature="5707:5721" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="144">
+            <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

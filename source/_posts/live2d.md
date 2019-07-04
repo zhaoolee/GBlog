@@ -1,15 +1,22 @@
 ---
 title: 3行代码 为网站添加萌萌哒看板娘
 date: 2019-07-04 08:09:17
-tags:
+tags: 
+- 看板娘
+- Hexo
+- Next
+categories:
+- 个人网站
 ---
 > ![](https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/a578298705ef3749a72362da3b2445e6.png)
 
 > 看板娘一词源自日语“看板娘(かんばんむすめ)”。其中的“看板”指的是店面招牌，或者是为了宣传、打广告而制作的宣传牌。“看板娘”也就是店面的招牌姑娘，亦即能够提升店面人气和顾客流量的女服务生、女店员等。也就是说，看板娘本身就是一块“活看板”，其本身的魅力就能够起到宣传、拉人气的作用。英语又称之为“Poster Girl”。
+
+<!-- more -->
 - 上面这一段是百度说的
 
 > 为网站添加萌萌哒看板娘, 可以让网站更有吸引力 
-- 上面这一句是昭昭说的
+- 上面这一句是昭昭说的(皮一下, 很开心)
 
 以下Gif图录制页面: [https://zhaoolee.github.io/GBlog/](https://zhaoolee.github.io/GBlog/) 
 

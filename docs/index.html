@@ -362,8 +362,7 @@
 
 <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css">
-<script src="/GBlog/live2d-widget-master/autoload.js"></script>
-
+<script src="https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget/autoload.js"></script>
 </div>
     </header>
 
@@ -377,6 +376,206 @@
           <div id="content" class="content">
             
   <section id="posts" class="posts-expand">
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://zhaoolee.github.io/GBlog/GBlog/2019/07/01/ajax-formdata/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="zhaoolee">
+      <meta itemprop="description" content="zhaoolee基于github仓库的静态博客">
+      <meta itemprop="image" content="https://avatars2.githubusercontent.com/u/15868458?s=460&v=4">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="zhaoolee的博客">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/GBlog/2019/07/01/ajax-formdata/" class="post-title-link" itemprop="url">使用原生ajax通过formdata完成文件上传,并实时监控上传进度</a>
+              
+            
+          </h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-07-01 07:05:30" itemprop="dateCreated datePublished" datetime="2019-07-01T07:05:30+08:00">2019-07-01</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-07-05 10:31:11" itemprop="dateModified" datetime="2019-07-05T10:31:11+08:00">2019-07-05</time>
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/GBlog/categories/前端/" itemprop="url" rel="index"><span itemprop="name">前端</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+            <span id="/GBlog/2019/07/01/ajax-formdata/" class="leancloud_visitors" data-flag-title="使用原生ajax通过formdata完成文件上传,并实时监控上传进度">
+              <span class="post-meta-divider">|</span>
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              
+                <span class="post-meta-item-text">阅读次数：</span>
+              
+                <span class="leancloud-visitors-count"></span>
+            </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <ul>
+<li><p>在ajax1.0时代, 是无法直接上传文件的, 到了ajax2.0时代, 新增了FormData, 我们就可以用FormData完成文件的上传</p>
+</li>
+<li><p>以前我们用form表单中的<code>&lt;input type=&quot;file&quot;/&gt;</code>实现文件上传, 但前端无法实时查看上传的进度, 而ajax2.0可以让我们实时监控上传进度</p>
+</li>
+<li><p>下面是一个原生js使用ajax 完成 FormData上传文件, 并实时监听文件上传进度的小Demo, 前后端均已完成代码实现(后端为nodejs实现)</p>
+</li>
+</ul>
+<h2 id="GIF效果展示"><a href="#GIF效果展示" class="headerlink" title="GIF效果展示"></a>GIF效果展示</h2><blockquote>
+<p><img src="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/89035c4225712a81a5ab6018191a53a6.gif" alt></p>
+</blockquote>
+          <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/GBlog/2019/07/01/ajax-formdata/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
     
       
 
@@ -1456,206 +1655,6 @@
           
             <div class="post-button text-center">
               <a class="btn" href="/GBlog/2019/07/02/python-send-mail/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://zhaoolee.github.io/GBlog/GBlog/2019/07/01/ajax-formdata/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="zhaoolee">
-      <meta itemprop="description" content="zhaoolee基于github仓库的静态博客">
-      <meta itemprop="image" content="https://avatars2.githubusercontent.com/u/15868458?s=460&v=4">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="zhaoolee的博客">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h2 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/GBlog/2019/07/01/ajax-formdata/" class="post-title-link" itemprop="url">使用原生ajax通过formdata完成文件上传,并实时监控上传进度</a>
-              
-            
-          </h2>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2019-07-01 07:05:30" itemprop="dateCreated datePublished" datetime="2019-07-01T07:05:30+08:00">2019-07-01</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2019-07-04 09:09:10" itemprop="dateModified" datetime="2019-07-04T09:09:10+08:00">2019-07-04</time>
-              
-            
-          </span>
-
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/GBlog/categories/前端/" itemprop="url" rel="index"><span itemprop="name">前端</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-            
-          
-
-          
-          
-            <span id="/GBlog/2019/07/01/ajax-formdata/" class="leancloud_visitors" data-flag-title="使用原生ajax通过formdata完成文件上传,并实时监控上传进度">
-              <span class="post-meta-divider">|</span>
-              <span class="post-meta-item-icon">
-                <i class="fa fa-eye"></i>
-              </span>
-              
-                <span class="post-meta-item-text">阅读次数：</span>
-              
-                <span class="leancloud-visitors-count"></span>
-            </span>
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <ul>
-<li><p>在ajax1.0时代, 是无法直接上传文件的, 到了ajax2.0时代, 新增了FormData, 我们就可以用FormData完成文件的上传</p>
-</li>
-<li><p>以前我们用form表单中的<code>&lt;input type=&quot;file&quot;/&gt;</code>实现文件上传, 但前端无法实时查看上传的进度, 而ajax2.0可以让我们实时监控上传进度</p>
-</li>
-<li><p>下面是一个原生js使用ajax 完成 FormData上传文件, 并实时监听文件上传进度的小Demo, 前后端均已完成代码实现(后端为nodejs实现)</p>
-</li>
-</ul>
-<h2 id="GIF效果展示"><a href="#GIF效果展示" class="headerlink" title="GIF效果展示"></a>GIF效果展示</h2><blockquote>
-<p><img src="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000000/89035c4225712a81a5ab6018191a53a6.gif" alt></p>
-</blockquote>
-          <!--noindex-->
-          
-            <div class="post-button text-center">
-              <a class="btn" href="/GBlog/2019/07/01/ajax-formdata/#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>

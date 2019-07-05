@@ -1217,3 +1217,11 @@ images: images
 # 成立时间
 
 since: 2017
+
+
+# 文章置顶设置 top
+
+
+topindex_generator:
+  per_page: 10
+  order_by: -date

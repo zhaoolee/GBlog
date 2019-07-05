@@ -15,7 +15,7 @@ console.log(`
               !'〈//｀Ｔ´', ＼ ｀'7'ｰr'
               ﾚ'ヽL__|___i,___,ンﾚ|ノ
                   ﾄ-,/  |___./
-                  'ｰ'    !_,.:  zhaoolee的看板娘~
+                  'ｰ'    !_,.:
 `);
 
 /*
@@ -24,8 +24,7 @@ console.log(`
  */
 
 function initWidget(waifuPath = "/waifu-tips.json", apiPath = "") {
-  // 原768
-	if (screen.width <= 10 || (localStorage.getItem("waifu-display") && new Date().getTime() - localStorage.getItem("waifu-display") <= 86400000)) {
+	if (screen.width <= 768 || (localStorage.getItem("waifu-display") && new Date().getTime() - localStorage.getItem("waifu-display") <= 86400000)) {
 		return;
 	}
 	localStorage.removeItem("waifu-display");

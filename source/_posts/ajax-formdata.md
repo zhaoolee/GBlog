@@ -1,6 +1,7 @@
 ---
 title: 使用原生ajax通过formdata完成文件上传,并实时监控上传进度
 date: 2019-07-01 07:05:30
+top: 10
 tags: 
 - ajax
 - formdata

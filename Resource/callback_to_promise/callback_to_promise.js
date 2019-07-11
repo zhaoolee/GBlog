@@ -7,8 +7,7 @@ fs.readFile('./zhaoolee.txt', (err, data)=>{
   }else{
     let result = data.toString("utf8");
     
-    console.log("回调函数的方式读到的数据类型为==>>", result);
-    console.log("回调函数的方式读到的内容为==>>", result);
+    console.log("CallBack方式读到的内容为==>>", result);
   }
 })
 
@@ -22,8 +21,7 @@ async function myReadFile (){
     })
   })
 
-  console.log("Promise的方式读到的数据类型为::", typeof(result));
-  console.log("Promise的方式读到的内容为", result);
+  console.log("Promise方式读到的内容为==>", result);
 }
 
 myReadFile();

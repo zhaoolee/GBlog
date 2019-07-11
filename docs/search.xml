@@ -87,4 +87,17 @@
         <tag>Node.js</tag>
       </tags>
   </entry>
+  <entry>
+    <title><![CDATA[将CallBack改写成Promise.md]]></title>
+    <url>%2FGBlog%2F2019%2F07%2F01%2Fcallback_to_promise%2F</url>
+    <content type="text"><![CDATA[CallBack回调函数是js的特色之一, 但CallBack回调方法, 非常容易造成回调地狱(callback hell), 回调地狱不仅形象丑陋,而且代码难以维护 以nodejs读取文件为例123456789101112const fs = require(&quot;fs&quot;);// 回调函数的方式fs.readFile(&apos;./zhaoolee.txt&apos;, (err, data)=&gt;&#123; if (err) &#123; console.log(err); &#125;else&#123; let result = data.toString(&quot;utf8&quot;); console.log(&quot;CallBack方式读到的内容为==&gt;&gt;&quot;, result); &#125;&#125;) 啥是回调函数? 我们可以把回调函数看做是快递小哥(回调函数=快递小哥) 把互联网看做是遍布全球的快递系统(互联网=快递系统) 把网页数据看做是快递包裹(网页数据=快递包裹) 某天购物狂欢节, 你买了200件, 200件快递来自全国各地, 发往你在深圳的家, 为了节省快递成本, 快递小哥会等待200件快递全部到达网点后, 再开着小车一起送货 把上面的送货策略抽象一下, 200件快递全部到达网点是事件A, 开着小车一起送货是事件B, 只有当事件A(200件快递全部到达网点)达成时, 才会进行事件B(开着小车一起送货), 事件B(开着小车一起送货)就是事件A(200件快递全部到达网点)的回调函数 用Promise改写上面的CallBack代码1234567891011121314const fs = require(&quot;fs&quot;);// Promise的方式async function myReadFile ()&#123; let result = await new Promise((resolve, reject)=&gt;&#123; fs.readFile(&apos;./zhaoolee.txt&apos;, (err, data)=&gt;&#123; resolve(data.toString(&quot;utf8&quot;)) &#125;) &#125;) console.log(&quot;Promise方式读到的内容为==&gt;&quot;, result);&#125;myReadFile(); 关于上面👆代码出现的await和async两个词 await是等待这一步完成后, 获得结果, 才能执行下一步 async用于修饰函数, 如果函数内部出现了await关键词,函数前面必须添加async, 这是语法~ 执行结果 本文章相关代码已经托管到github, 代码地址: https://github.com/zhaoolee/GBlog/tree/master/Resource/callback_to_promise]]></content>
+      <categories>
+        <category>前端</category>
+      </categories>
+      <tags>
+        <tag>Node.js</tag>
+        <tag>CallBack</tag>
+        <tag>Promise</tag>
+      </tags>
+  </entry>
 </search>

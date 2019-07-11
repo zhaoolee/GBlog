@@ -103,18 +103,21 @@
 
 
 
-  <meta name="description" content="这是zhaoolee的GitHub博客站点">
-<meta name="keywords" content="zhaoolee 木子昭 博客">
-<meta property="og:type" content="website">
-<meta property="og:title" content="关于站点">
-<meta property="og:url" content="http://zhaoolee.github.io/GBlog/about/index.html">
+  <meta name="description" content="CallBack回调函数是js的特色之一, 但CallBack回调方法, 非常容易造成回调地狱(callback hell), 回调地狱不仅形象丑陋,而且代码难以维护  以nodejs读取文件为例123456789101112const fs = require(&amp;quot;fs&amp;quot;);// 回调函数的方式fs.readFile(&amp;apos;./zhaoolee.txt&amp;apos;,">
+<meta name="keywords" content="Node.js,CallBack,Promise">
+<meta property="og:type" content="article">
+<meta property="og:title" content="将CallBack改写成Promise.md">
+<meta property="og:url" content="http://zhaoolee.github.io/GBlog/2019/07/01/callback_to_promise/index.html">
 <meta property="og:site_name" content="zhaoolee的博客">
-<meta property="og:description" content="这是zhaoolee的GitHub博客站点">
+<meta property="og:description" content="CallBack回调函数是js的特色之一, 但CallBack回调方法, 非常容易造成回调地狱(callback hell), 回调地狱不仅形象丑陋,而且代码难以维护  以nodejs读取文件为例123456789101112const fs = require(&amp;quot;fs&amp;quot;);// 回调函数的方式fs.readFile(&amp;apos;./zhaoolee.txt&amp;apos;,">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-07-02T03:24:32.968Z">
+<meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000002/dfa48c0ba968ca4d8c2f948f238692f3.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000002/cb9f9efdc99b789ec25492f9061d0dab.png">
+<meta property="og:updated_time" content="2019-07-11T01:07:01.884Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="关于站点">
-<meta name="twitter:description" content="这是zhaoolee的GitHub博客站点">
+<meta name="twitter:title" content="将CallBack改写成Promise.md">
+<meta name="twitter:description" content="CallBack回调函数是js的特色之一, 但CallBack回调方法, 非常容易造成回调地狱(callback hell), 回调地狱不仅形象丑陋,而且代码难以维护  以nodejs读取文件为例123456789101112const fs = require(&amp;quot;fs&amp;quot;);// 回调函数的方式fs.readFile(&amp;apos;./zhaoolee.txt&amp;apos;,">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000002/dfa48c0ba968ca4d8c2f948f238692f3.png">
 
 
 
@@ -122,7 +125,7 @@
 
   
   
-  <link rel="canonical" href="http://zhaoolee.github.io/GBlog/about/">
+  <link rel="canonical" href="http://zhaoolee.github.io/GBlog/2019/07/01/callback_to_promise/">
 
 
 
@@ -132,7 +135,7 @@
   };
 </script>
 
-  <title>关于站点 | zhaoolee的博客</title>
+  <title>将CallBack改写成Promise.md | zhaoolee的博客</title>
   
 
 
@@ -249,7 +252,7 @@
         
         
           
-          <li class="menu-item menu-item-about menu-item-active">
+          <li class="menu-item menu-item-about">
 
     
     
@@ -330,28 +333,6 @@
   
     
 
-    
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-    
-
-  
-
-
   
 
   
@@ -400,48 +381,240 @@
 
   <div id="posts" class="posts-expand">
     
+
+  
+
+  
+  
+  
+
+  
+    <div class="reading-progress-bar"></div>
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://zhaoolee.github.io/GBlog/GBlog/2019/07/01/callback_to_promise/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="zhaoolee">
+      <meta itemprop="description" content="zhaoolee基于github仓库的静态博客">
+      <meta itemprop="image" content="https://avatars2.githubusercontent.com/u/15868458?s=460&v=4">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="zhaoolee的博客">
+    </span>
+
     
-    
-    <div class="post-block page">
       <header class="post-header">
 
-<h2 class="post-title" itemprop="name headline">关于站点
-
-</h2>
-
-<div class="post-meta">
-  
-  
-
-
-
-</div>
-
-</header>
-
-      
-      
-      
-      <div class="post-body">
         
         
-          <blockquote>
-<p>这是zhaoolee的GitHub博客站点</p>
+          <h2 class="post-title" itemprop="name headline">将CallBack改写成Promise.md
+
+              
+            
+          </h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-07-01 07:05:30" itemprop="dateCreated datePublished" datetime="2019-07-01T07:05:30+08:00">2019-07-01</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-07-11 09:07:01" itemprop="dateModified" datetime="2019-07-11T09:07:01+08:00">2019-07-11</time>
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/GBlog/categories/前端/" itemprop="url" rel="index"><span itemprop="name">前端</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+            <span id="/GBlog/2019/07/01/callback_to_promise/" class="leancloud_visitors" data-flag-title="将CallBack改写成Promise.md">
+              <span class="post-meta-divider">|</span>
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              
+                <span class="post-meta-item-text">阅读次数：</span>
+              
+                <span class="leancloud-visitors-count"></span>
+            </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <blockquote>
+<p><img src="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000002/dfa48c0ba968ca4d8c2f948f238692f3.png" alt></p>
 </blockquote>
+<p>CallBack回调函数是js的特色之一, 但CallBack回调方法, 非常容易造成<strong>回调地狱(callback hell)</strong>, <strong>回调地狱</strong>不仅形象丑陋,而且代码难以维护</p>
+<ul>
+<li>以nodejs读取文件为例<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">const fs = require(&quot;fs&quot;);</span><br><span class="line"></span><br><span class="line">// 回调函数的方式</span><br><span class="line">fs.readFile(&apos;./zhaoolee.txt&apos;, (err, data)=&gt;&#123;</span><br><span class="line">  if (err) &#123;</span><br><span class="line">    console.log(err);</span><br><span class="line">  &#125;else&#123;</span><br><span class="line">    let result = data.toString(&quot;utf8&quot;);</span><br><span class="line">    </span><br><span class="line">    console.log(&quot;CallBack方式读到的内容为==&gt;&gt;&quot;, result);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
 
-        
-      </div>
-      
-      
+</li>
+</ul>
+<h2 id="啥是回调函数"><a href="#啥是回调函数" class="headerlink" title="啥是回调函数?"></a>啥是回调函数?</h2><ul>
+<li>我们可以把<strong>回调函数</strong>看做是<strong>快递小哥</strong>(回调函数=快递小哥)</li>
+<li>把<strong>互联网</strong>看做是遍布全球的<strong>快递系统</strong>(互联网=快递系统)</li>
+<li>把<strong>网页数据</strong>看做是<strong>快递包裹</strong>(网页数据=快递包裹)</li>
+</ul>
+<p>某天购物狂欢节, 你买了200件, 200件快递来自全国各地, 发往你在深圳的家, 为了节省快递成本, 快递小哥会等待200件快递全部到达网点后, 再开着小车一起送货</p>
+<ul>
+<li>把上面的送货策略抽象一下, 200件快递全部到达网点是事件A,  开着小车一起送货是事件B, 只有当事件A(200件快递全部到达网点)达成时, 才会进行事件B(开着小车一起送货), 事件B(开着小车一起送货)就是事件A(200件快递全部到达网点)的回调函数</li>
+</ul>
+<h2 id="用Promise改写上面的CallBack代码"><a href="#用Promise改写上面的CallBack代码" class="headerlink" title="用Promise改写上面的CallBack代码"></a>用Promise改写上面的CallBack代码</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">const fs = require(&quot;fs&quot;);</span><br><span class="line"></span><br><span class="line">// Promise的方式</span><br><span class="line">async function myReadFile ()&#123;</span><br><span class="line">  let result = await new Promise((resolve, reject)=&gt;&#123;</span><br><span class="line">    fs.readFile(&apos;./zhaoolee.txt&apos;, (err, data)=&gt;&#123;</span><br><span class="line">      resolve(data.toString(&quot;utf8&quot;))</span><br><span class="line">    &#125;)</span><br><span class="line">  &#125;)</span><br><span class="line"></span><br><span class="line">  console.log(&quot;Promise方式读到的内容为==&gt;&quot;, result);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">myReadFile();</span><br></pre></td></tr></table></figure>
+
+<p>关于上面👆代码出现的await和async两个词</p>
+<ul>
+<li>await是等待这一步完成后, 获得结果, 才能执行下一步</li>
+<li>async用于修饰函数, 如果函数内部出现了await关键词,函数前面必须添加async, 这是语法~</li>
+</ul>
+<h2 id="执行结果"><a href="#执行结果" class="headerlink" title="执行结果"></a>执行结果</h2><blockquote>
+<p><img src="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000002/cb9f9efdc99b789ec25492f9061d0dab.png" alt></p>
+</blockquote>
+<ul>
+<li>本文章相关代码已经托管到github, 代码地址: <a href="https://github.com/zhaoolee/GBlog/tree/master/Resource/callback_to_promise" target="_blank" rel="noopener">https://github.com/zhaoolee/GBlog/tree/master/Resource/callback_to_promise</a></li>
+</ul>
+
       
     </div>
-    
-
-
 
     
+
     
     
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/GBlog/tags/Node-js/" rel="tag"># Node.js</a>
+          
+            <a href="/GBlog/tags/CallBack/" rel="tag"># CallBack</a>
+          
+            <a href="/GBlog/tags/Promise/" rel="tag"># Promise</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/GBlog/2019/07/01/ajax-formdata/" rel="prev" title="使用原生ajax通过formdata完成文件上传,并实时监控上传进度">
+                使用原生ajax通过formdata完成文件上传,并实时监控上传进度 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
   </div>
 
 
@@ -474,8 +647,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <div class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -621,6 +803,23 @@
         </div>
       </div>
 
+      
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#啥是回调函数"><span class="nav-number">1.</span> <span class="nav-text">啥是回调函数?</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#用Promise改写上面的CallBack代码"><span class="nav-number">2.</span> <span class="nav-text">用Promise改写上面的CallBack代码</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#执行结果"><span class="nav-number">3.</span> <span class="nav-text">执行结果</span></a></li></ol></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
       
 
       
@@ -1140,38 +1339,37 @@
   
   <script>
     
-    function showTime(Counter) {
-      var entries = [];
+    function addCount(Counter) {
       var $visitors = $('.leancloud_visitors');
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
 
-      $visitors.each(function() {
-        entries.push( $(this).attr('id').trim() );
-      });
-
-      Counter('get', '/classes/Counter', { where: JSON.stringify({ url: { '$in': entries } }) })
+      Counter('get', '/classes/Counter', { where: JSON.stringify({ url }) })
         .done(function({ results }) {
-          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
-
-          if (results.length === 0) {
-            $visitors.find(COUNT_CONTAINER_REF).text(0);
-            return;
-          }
-
-          for (var i = 0; i < results.length; i++) {
-            var item = results[i];
-            var url = item.url;
-            var time = item.time;
-            var element = document.getElementById(url);
-
-            $(element).find(COUNT_CONTAINER_REF).text(time);
-          }
-          for (var i = 0; i < entries.length; i++) {
-            var url = entries[i];
-            var element = document.getElementById(url);
-            var countSpan = $(element).find(COUNT_CONTAINER_REF);
-            if (countSpan.text() == '') {
-              countSpan.text(0);
-            }
+          if (results.length > 0) {
+            var counter = results[0];
+            
+            Counter('put', '/classes/Counter/' + counter.objectId, JSON.stringify({ time: { '__op': 'Increment', 'amount': 1 } }))
+            
+              .done(function() {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.time + 1);
+              })
+            
+              .fail(function ({ responseJSON }) {
+                console.log('Failed to save Visitor num, with error message: ' + responseJSON.error);
+              })
+          } else {
+            
+              Counter('post', '/classes/Counter', JSON.stringify({ title: title, url: url, time: 1 }))
+                .done(function() {
+                  var $element = $(document.getElementById(url));
+                  $element.find('.leancloud-visitors-count').text(1);
+                })
+                .fail(function() {
+                  console.log('Failed to create');
+                });
+            
           }
         })
         .fail(function ({ responseJSON }) {
@@ -1196,9 +1394,7 @@
             });
           };
           
-            if ($('.post-title-link').length >= 1) {
-              showTime(Counter);
-            }
+            addCount(Counter);
           
         });
     });

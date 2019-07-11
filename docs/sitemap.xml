@@ -2,16 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://zhaoolee.github.io/GBlog/2019/07/01/ajax-formdata/</loc>
+    <loc>http://zhaoolee.github.io/GBlog/2019/07/01/callback_to_promise/</loc>
     
-    <lastmod>2019-07-05T02:31:11.347Z</lastmod>
+    <lastmod>2019-07-11T01:07:01.884Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://zhaoolee.github.io/GBlog/2019/07/04/live2d/</loc>
     
-    <lastmod>2019-07-04T00:16:39.652Z</lastmod>
+    <lastmod>2019-07-05T02:32:56.048Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zhaoolee.github.io/GBlog/2019/07/01/ajax-formdata/</loc>
+    
+    <lastmod>2019-07-05T02:31:11.347Z</lastmod>
     
   </url>
   

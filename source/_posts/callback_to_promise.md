@@ -12,6 +12,7 @@ categories:
 
 > ![](https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000002/dfa48c0ba968ca4d8c2f948f238692f3.png)
 
+<!-- more -->
 
 CallBack回调函数是js的特色之一, 但CallBack回调方法, 非常容易造成**回调地狱(callback hell)**, **回调地狱**不仅形象丑陋,而且代码难以维护
 

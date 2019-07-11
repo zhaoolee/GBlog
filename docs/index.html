@@ -849,7 +849,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2019-07-11 09:07:01" itemprop="dateModified" datetime="2019-07-11T09:07:01+08:00">2019-07-11</time>
+                <time title="修改时间：2019-07-11 09:09:35" itemprop="dateModified" datetime="2019-07-11T09:09:35+08:00">2019-07-11</time>
               
             
           </span>
@@ -913,40 +913,18 @@
 
       
         
-          
-            <blockquote>
+          <blockquote>
 <p><img src="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000002/dfa48c0ba968ca4d8c2f948f238692f3.png" alt></p>
 </blockquote>
-<p>CallBack回调函数是js的特色之一, 但CallBack回调方法, 非常容易造成<strong>回调地狱(callback hell)</strong>, <strong>回调地狱</strong>不仅形象丑陋,而且代码难以维护</p>
-<ul>
-<li>以nodejs读取文件为例<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">const fs = require(&quot;fs&quot;);</span><br><span class="line"></span><br><span class="line">// 回调函数的方式</span><br><span class="line">fs.readFile(&apos;./zhaoolee.txt&apos;, (err, data)=&gt;&#123;</span><br><span class="line">  if (err) &#123;</span><br><span class="line">    console.log(err);</span><br><span class="line">  &#125;else&#123;</span><br><span class="line">    let result = data.toString(&quot;utf8&quot;);</span><br><span class="line">    </span><br><span class="line">    console.log(&quot;CallBack方式读到的内容为==&gt;&gt;&quot;, result);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
-
-</li>
-</ul>
-<h2 id="啥是回调函数"><a href="#啥是回调函数" class="headerlink" title="啥是回调函数?"></a>啥是回调函数?</h2><ul>
-<li>我们可以把<strong>回调函数</strong>看做是<strong>快递小哥</strong>(回调函数=快递小哥)</li>
-<li>把<strong>互联网</strong>看做是遍布全球的<strong>快递系统</strong>(互联网=快递系统)</li>
-<li>把<strong>网页数据</strong>看做是<strong>快递包裹</strong>(网页数据=快递包裹)</li>
-</ul>
-<p>某天购物狂欢节, 你买了200件, 200件快递来自全国各地, 发往你在深圳的家, 为了节省快递成本, 快递小哥会等待200件快递全部到达网点后, 再开着小车一起送货</p>
-<ul>
-<li>把上面的送货策略抽象一下, 200件快递全部到达网点是事件A,  开着小车一起送货是事件B, 只有当事件A(200件快递全部到达网点)达成时, 才会进行事件B(开着小车一起送货), 事件B(开着小车一起送货)就是事件A(200件快递全部到达网点)的回调函数</li>
-</ul>
-<h2 id="用Promise改写上面的CallBack代码"><a href="#用Promise改写上面的CallBack代码" class="headerlink" title="用Promise改写上面的CallBack代码"></a>用Promise改写上面的CallBack代码</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">const fs = require(&quot;fs&quot;);</span><br><span class="line"></span><br><span class="line">// Promise的方式</span><br><span class="line">async function myReadFile ()&#123;</span><br><span class="line">  let result = await new Promise((resolve, reject)=&gt;&#123;</span><br><span class="line">    fs.readFile(&apos;./zhaoolee.txt&apos;, (err, data)=&gt;&#123;</span><br><span class="line">      resolve(data.toString(&quot;utf8&quot;))</span><br><span class="line">    &#125;)</span><br><span class="line">  &#125;)</span><br><span class="line"></span><br><span class="line">  console.log(&quot;Promise方式读到的内容为==&gt;&quot;, result);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">myReadFile();</span><br></pre></td></tr></table></figure>
-
-<p>关于上面👆代码出现的await和async两个词</p>
-<ul>
-<li>await是等待这一步完成后, 获得结果, 才能执行下一步</li>
-<li>async用于修饰函数, 如果函数内部出现了await关键词,函数前面必须添加async, 这是语法~</li>
-</ul>
-<h2 id="执行结果"><a href="#执行结果" class="headerlink" title="执行结果"></a>执行结果</h2><blockquote>
-<p><img src="https://raw.githubusercontent.com/zhaoolee/GraphBed/master/zhaoolee_images000002/cb9f9efdc99b789ec25492f9061d0dab.png" alt></p>
-</blockquote>
-<ul>
-<li>本文章相关代码已经托管到github, 代码地址: <a href="https://github.com/zhaoolee/GBlog/tree/master/Resource/callback_to_promise" target="_blank" rel="noopener">https://github.com/zhaoolee/GBlog/tree/master/Resource/callback_to_promise</a></li>
-</ul>
-
+          <!--noindex-->
           
+            <div class="post-button text-center">
+              <a class="btn" href="/GBlog/2019/07/01/callback_to_promise/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          
+          <!--/noindex-->
         
       
     </div>

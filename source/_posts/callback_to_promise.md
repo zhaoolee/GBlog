@@ -1,5 +1,5 @@
 ---
-title: 将CallBack改写成Promise.md
+title: 将CallBack改写成Promise
 date: 2019-07-01 07:05:30
 top: 1
 tags: 

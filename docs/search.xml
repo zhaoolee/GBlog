@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[nginx使用心得]]></title>
+    <url>%2FGBlog%2F2019%2F08%2F31%2Fnginx%2F</url>
+    <content type="text"></content>
+      <categories>
+        <category>程序员</category>
+      </categories>
+      <tags>
+        <tag>nignx</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[以import from与export default结合方式同时导出多个变量]]></title>
     <url>%2FGBlog%2F2019%2F07%2F18%2Fimport-export%2F</url>
     <content type="text"><![CDATA[export default 默认无法同时导出多个变量 export default 导出变量的方式非常优雅, 当使用导出变量时, 无需了解导出变量原来的命名 export 可以导出多个变量, 当使用导出变量时, 需要了解导出变量原来的命名 main.msj 12345import function_zhaoolee_info from &apos;./zhaoolee_info.mjs&apos;;let &#123;name, age&#125; = function_zhaoolee_info();// 运行方式为: node --experimental-modules main.mjsconsole.log(name,&quot;的年龄为&quot;, age); zhaoolee_info.mjs 12345export default ()=&gt;&#123; let name=&quot;zhaoolee&quot;; let age = new Date().getFullYear() - 1995; return &#123;name, age&#125;;&#125; 运行命令 node --experimental-modules main.mjs 小结当我们需要以import from与export default结合方式, 同时导出多个变量时,函数不失为一种优雅简洁的方式~ 相关资源下载1https://github.com/zhaoolee/GBlog/tree/master/resource/import_export_function]]></content>

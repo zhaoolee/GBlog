@@ -832,7 +832,7 @@
                 
               
 
-              <time title="创建时间：2019-07-18 07:05:30 / 修改时间：09:28:50" itemprop="dateCreated datePublished" datetime="2019-07-18T07:05:30+08:00">2019-07-18</time>
+              <time title="创建时间：2019-07-18 07:05:30 / 修改时间：09:30:48" itemprop="dateCreated datePublished" datetime="2019-07-18T07:05:30+08:00">2019-07-18</time>
             
 
             
@@ -901,35 +901,20 @@
 
       
         
+          <ul>
+<li>export default 默认无法同时导出多个变量</li>
+<li>export default 导出变量的方式非常优雅, 当使用导出变量时, 无需了解导出变量原来的命名</li>
+<li>export 可以导出多个变量, 当使用导出变量时, 需要了解导出变量原来的命名</li>
+</ul>
+          <!--noindex-->
           
-            <ul>
-<li><p>export default 默认无法同时导出多个变量</p>
-</li>
-<li><p>export default 导出变量的方式非常优雅, 当使用导出变量时, 无需了解导出变量原来的命名</p>
-</li>
-<li><p>export 可以导出多个变量, 当使用导出变量时, 需要了解导出变量原来的命名</p>
-</li>
-<li><p>main.msj</p>
-</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">import function_zhaoolee_info from &apos;./zhaoolee_info.mjs&apos;;</span><br><span class="line">let &#123;name, age&#125; = function_zhaoolee_info();</span><br><span class="line"></span><br><span class="line">// 运行方式为: node --experimental-modules main.mjs</span><br><span class="line">console.log(name,&quot;的年龄为&quot;, age);</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>zhaoolee_info.mjs</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">export default ()=&gt;&#123;</span><br><span class="line">  let name=&quot;zhaoolee&quot;;</span><br><span class="line">  let age = new Date().getFullYear() - 1995;</span><br><span class="line">  return &#123;name, age&#125;;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>运行命令 <code>node --experimental-modules main.mjs</code></li>
-</ul>
-<blockquote>
-<p><img src="https://user-images.githubusercontent.com/15868458/61421636-8e2caa80-a93a-11e9-9f02-dd6694efaa7a.png" alt></p>
-</blockquote>
-<h2 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h2><p>当我们需要以import from与export default结合方式, 同时导出多个变量时,函数不失为一种优雅简洁的方式~</p>
-<h2 id="相关资源下载"><a href="#相关资源下载" class="headerlink" title="相关资源下载"></a>相关资源下载</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://github.com/zhaoolee/GBlog/tree/master/resource/import_export_function</span><br></pre></td></tr></table></figure>
-
-
+            <div class="post-button text-center">
+              <a class="btn" href="/GBlog/2019/07/18/import-export/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
           
+          <!--/noindex-->
         
       
     </div>
@@ -1123,6 +1108,177 @@
             </div>
           
           <!--/noindex-->
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://zhaoolee.github.io/GBlog/GBlog/2019/08/31/nginx/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="zhaoolee">
+      <meta itemprop="description" content="zhaoolee基于github仓库的静态博客">
+      <meta itemprop="image" content="https://avatars2.githubusercontent.com/u/15868458?s=460&v=4">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="zhaoolee的博客">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/GBlog/2019/08/31/nginx/" class="post-title-link" itemprop="url">nginx使用心得</a>
+              
+            
+          </h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-08-31 17:50:34 / 修改时间：17:51:18" itemprop="dateCreated datePublished" datetime="2019-08-31T17:50:34+08:00">2019-08-31</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/GBlog/categories/程序员/" itemprop="url" rel="index"><span itemprop="name">程序员</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+            <span id="/GBlog/2019/08/31/nginx/" class="leancloud_visitors" data-flag-title="nginx使用心得">
+              <span class="post-meta-divider">|</span>
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              
+                <span class="post-meta-item-text">阅读次数：</span>
+              
+                <span class="leancloud-visitors-count"></span>
+            </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            
+          
         
       
     </div>
@@ -2157,7 +2313,7 @@
                 
                   <a href="/GBlog/archives">
                 
-                    <span class="site-state-item-count">9</span>
+                    <span class="site-state-item-count">10</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -2237,7 +2393,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">18</span>
+                      
+                    
+                    <span class="site-state-item-count">19</span>
                     <span class="site-state-item-name">标签</span>
                   </a>
                 </div>

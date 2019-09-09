@@ -16,6 +16,8 @@ categories:
 - export default 导出变量的方式非常优雅, 当使用导出变量时, 无需了解导出变量原来的命名
 - export 可以导出多个变量, 当使用导出变量时, 需要了解导出变量原来的命名
 
+<!-- more -->
+
 - main.msj
 
 ```main.mjs

@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://zhaoolee.github.io/GBlog/GBlog/2019/08/31/nginx/</loc>
+    <lastmod>2019-08-31</lastmod>
+  </url>  <url>
+    <loc>http://zhaoolee.github.io/GBlog/GBlog/2019/07/18/import-export/</loc>
+    <lastmod>2019-07-18</lastmod>
+  </url>  <url>
     <loc>http://zhaoolee.github.io/GBlog/GBlog/2019/07/02/md-to-word/</loc>
     <lastmod>2019-07-18</lastmod>
   </url>  <url>
     <loc>http://zhaoolee.github.io/GBlog/GBlog/2019/07/01/callback_to_promise/</loc>
-    <lastmod>2019-07-18</lastmod>
-  </url>  <url>
-    <loc>http://zhaoolee.github.io/GBlog/GBlog/2019/07/18/import-export/</loc>
     <lastmod>2019-07-18</lastmod>
   </url>  <url>
     <loc>http://zhaoolee.github.io/GBlog/GBlog/2019/07/04/live2d/</loc>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>拖拽</title>
+</head>
+
+<body>
+    <style>
+        .left {
+            display: inline-block;
+            position: absolute;
+
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+    <image class="left" draggable="false" src="https://raw.githubusercontent.com/zhaoolee/ChineseBQB/master/001Funny_%E6%BB%91%E7%A8%BD%E5%A4%A7%E4%BD%AC%F0%9F%98%8FBQB/Funny00018.gif"></image>
+    <image class="left" draggable="false" src="https://raw.githubusercontent.com/zhaoolee/ChineseBQB/master/001Funny_%E6%BB%91%E7%A8%BD%E5%A4%A7%E4%BD%AC%F0%9F%98%8FBQB/0.gif"></image>
+    <image class="left" draggable="false" src="https://raw.githubusercontent.com/zhaoolee/ChineseBQB/master/001Funny_%E6%BB%91%E7%A8%BD%E5%A4%A7%E4%BD%AC%F0%9F%98%8FBQB/Funny00010.gif"></image>
+
+    <script>
+        // 跨浏览器的事件处理工具
+        var EventUtil = {
+            addHandler: function(element, type, handle){
+                // 如果存在DOM2级方法
+                if(element.addEventListener){
+                    // 第三个参数false表示在冒泡阶段进行处理
+                    element.addEventListener(type, handle, false);
+                // 如果运行在IE浏览器
+                } else if(element.attachEvent){
+                    element.attachEvent("on" + type, handle);
+                // 使用古老的DOM级方法
+                } else {
+                    element["on" + type] = handler;
+                }
+            },
+            removeHandler: function(element, type, handle){
+                // 如果存在DOM2级方法
+                if(element.removeEventListener){
+                    // 第三个参数false表示在冒泡阶段进行处理
+                    element.removeEventListener(type, handle, false);
+                // 如果运行在IE浏览器
+                } else if(element.detachEvent){
+                    element.detachEvent("on" + type, handle);
+                // 使用古老的DOM级方法
+                } else {
+                    element["on" + type] = null;
+                }
+            },
+            getTarget: function (event) {
+                return event.target || event.srcElement;
+            }
+        }
+
+
+        // 让红色正方形跟随鼠标
+
+        var target_element = null;
+
+        var diff_x = 0;
+        var diff_y = 0;
+
+        function follow_mouse(event){
+            if(event.type === "mousedown") {
+                target_element = EventUtil.getTarget(event);
+                diff_x = event.clientX - target_element.offsetLeft;
+                diff_y = event.clientY - target_element.offsetTop;
+            }
+
+            if(event.type === "mouseup") {
+                target_element = null;
+            }
+
+            if(target_element !== null && event.type === "mousemove") {
+                target_element.style.left = (event.clientX - diff_x) + "px";
+                target_element.style.top = (event.clientY - diff_y) + "px";
+            }
+        }
+
+        EventUtil.addHandler(document, "mousemove", follow_mouse);
+        EventUtil.addHandler(document, "mouseup", follow_mouse);
+        EventUtil.addHandler(document, "mousedown", follow_mouse);
+
+    </script>
+</body>
+
+</html>
